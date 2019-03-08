@@ -10,6 +10,20 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_youmail_normalized_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_numeracle_partner_mapping_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_nomorobo_normalized_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_numeralist_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_callcontrol_extract_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_callcontrol_normalized_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_nomorobo_extract_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_youmail_extract_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_firstorion_normalized_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_partner_table_0.1</module>
+    <module>jobs/joblets/MISCELLANEOUS/GIRISH/get_lock_file_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_firstorion_extract_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_customer_input_data_0.1</module>
+    <module>jobs/process/NUMERICAL/INBOUND/inbound_customer_table_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>

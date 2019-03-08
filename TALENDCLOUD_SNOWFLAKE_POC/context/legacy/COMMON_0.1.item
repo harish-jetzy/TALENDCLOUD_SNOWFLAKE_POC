@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_6x5l0EE5EemC5P9aQNy0Fw" xmi:version="2.0">
+  <contextParameter comment="Timestamp of the start of this job" name="vjobStartTimestamp" prompt="vjobStartTimestamp?" promptNeeded="false" type="id_Date" value="" xmi:id="_6x5l0UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Timestamp of last successful run" name="vjobLastRunTimestamp" prompt="vjobLastRunTimestamp?" promptNeeded="false" type="id_String" value="" xmi:id="_6x5l0kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Target table name - 1st table" name="vjobTargetTable_01" prompt="vjobTargetTable_01?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l00E5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Name of last run timestamp file" name="vjobTimestampFile" prompt="vjobTimestampFile?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l1EE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Target table name - 2nd table (when applicable)" name="vjobTargetTable_02" prompt="vjobTargetTable_02?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l1UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Last surrogate key value of the target table" name="vjobLastSurrogateKey" prompt="vjobLastSurrogateKey?" promptNeeded="false" type="id_BigDecimal" value="&quot;&quot;" xmi:id="_6x5l1kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Name of the job" name="vjobName" prompt="vjobName?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l10E5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Name of the timestamp column of the target table" name="vjobTimestampColumn" prompt="vjobTimestampColumn?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l2EE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="User supplied override timestamp" name="voverrideTimestamp" prompt="Enter an override timestamp if desired in format yyyy-mm-dd hh:mm:ss. " promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l2UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vdqStagingTruncate" prompt="vdqStagingTruncate?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_6x5l2kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vdqStagingLoad" prompt="vdqStagingLoad?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_6x5l20E5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vstartDate" prompt="vstartDate?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l3EE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vendDate" prompt="vendDate?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l3UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vstartTimestamp" prompt="vstartTimestamp?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l3kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vendTimestamp" prompt="vendTimestamp?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l30E5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Which context group to use" name="vcontextGroup" prompt="vcontextGroup?" promptNeeded="false" type="id_String" value="null" xmi:id="_6x5l4EE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Fiscal Week Ending Date for initial load from Order Line Fact" name="vjobfiscalweekenddate" prompt="vjobfiscalweekenddate?" promptNeeded="false" type="id_Date" value="" xmi:id="_6x5l4UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Current Date in string" name="vcurrentDate" prompt="vcurrentDate?" promptNeeded="false" type="id_String" value="" xmi:id="_6x5l4kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vmaxFileWaitIteration" prompt="vmaxFileWaitIteration?" promptNeeded="false" type="id_Integer" value="15" xmi:id="_6x5l40E5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vtimeBetweenFileWait" prompt="vtimeBetweenFileWait?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_6x5l5EE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Source table name - 1st table" name="vjobSourceTable_01" prompt="vjobSourceTable_01?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l5UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Source table name - 2st table (when applicable)" name="vjobSourceTable_02" prompt="vjobSourceTable_02?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l5kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Source file name - 1st file" name="vjobSourceFile_01" prompt="vjobSourceFile_01?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l50E5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Source file name - 2st file (when applicable)" name="vjobSourceFile_02" prompt="vjobSourceFile_02?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l6EE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Target file name - 1st file" name="vjobTargetFile_01" prompt="vjobTargetFile_01?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l6UE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="Target file name - 2st file (when applicable)" name="vjobTargetFile_02" prompt="vjobTargetFile_02?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l6kE5EemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="vemail" prompt="vemail?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_6x5l60E5EemC5P9aQNy0Fw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c9c748d5-4e69-4830-b4b4-6c1aa9c6989f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8YlFspIHW7uAuEzPB04hG2SFE3V/I/EIJtGAmdC7ORtvUI5A8zh7oXicIkSnRd4dH7Zh488RzwFg
+AAsccZbFNw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_deeeb8fd-6ae5-4f10-8caa-496f122c2b0b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1JiLNMhS1yBHBaeqdvLZkVaITSkIf1ZBElxxbxGgjuuCw1dfKYxE5a7rmK8dJ8y1bst6pRk0qsHV
+Ilir86l7lQ==</DigestValue></Reference></SignedInfo><SignatureValue>3nlkrsqBudH/cOd858Cmylk7ax3+tqfADZuhDq+9n3Rk/wBybZ+P5Yek2rfEvqPTdQoy+zcdYkBw
+2zjgyaylu/gm9z1g/ql8H+KHlViGVsDwGzQANEGfzYzXLf6wFhIkIsuwcR7Q1E4eysNuKIWcaket
+dxadJeyyeVoYa7O7o/ohliXwhKxDjbWrad7A8ZeDdSvsKEKt/JNf0xvKW/tkF4Krps9WcbNBbu4X
+idGmRJsg5YCGK5oX0GZcIN0xI3JN0BJS050nz0v5uV+2mt23v06s/CQyK8R21gY+ZxrHBrAXEK2I
+Z4Qeq9LLrnkZ65UZqR4HkUWjYWp0F4pQYm77OA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_deeeb8fd-6ae5-4f10-8caa-496f122c2b0b" Target="#_c9c748d5-4e69-4830-b4b4-6c1aa9c6989f"><Timestamp>2019-03-08 00:34:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
