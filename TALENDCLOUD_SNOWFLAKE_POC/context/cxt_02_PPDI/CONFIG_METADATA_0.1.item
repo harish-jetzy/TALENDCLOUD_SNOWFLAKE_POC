@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_HUIvMEQrEemC5P9aQNy0Fw" xmi:version="2.0">
+  <contextParameter comment="" name="STUDY_NAME" prompt="STUDY_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvMUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DESCRIPTION" prompt="DESCRIPTION?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvMkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATA_SOURCE" prompt="DATA_SOURCE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvM0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATAFILE_NAME" prompt="DATAFILE_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvNEQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FTP_SERVER" prompt="FTP_SERVER?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvNUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FTP_LOGIN_ID" prompt="FTP_LOGIN_ID?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvNkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FTP_LOGIN_PASSWORD" prompt="FTP_LOGIN_PASSWORD?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvN0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FTP_DIRECTORY" prompt="FTP_DIRECTORY?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvOEQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_TYPE" prompt="DATABASE_TYPE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvOUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_HOST_SERVER" prompt="DATABASE_HOST_SERVER?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvOkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_PORT" prompt="DATABASE_PORT?" promptNeeded="false" type="id_Integer" value="" xmi:id="_HUIvO0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_NAME" prompt="DATABASE_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvPEQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_SCHEMA" prompt="DATABASE_SCHEMA?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvPUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_TABLE" prompt="DATABASE_TABLE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvPkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_LOGIN_ID" prompt="DATABASE_LOGIN_ID?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvP0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_LOGIN_PASSWORD" prompt="DATABASE_LOGIN_PASSWORD?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvQEQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_COLUMN" prompt="DATABASE_COLUMN?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvQUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_QUERY" prompt="DATABASE_QUERY?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvQkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="DATABASE_ADDITIONAL" prompt="DATABASE_ADDITIONAL?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvQ0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_SERVER" prompt="WEB_SERVER?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvREQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_LOGIN_ID" prompt="WEB_LOGIN_ID?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvRUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_LOGIN_PASSWORD" prompt="WEB_LOGIN_PASSWORD?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvRkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="STATUS_TYPE" prompt="STATUS_TYPE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvR0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FTP_PORT_NUMBER" prompt="FTP_PORT_NUMBER?" promptNeeded="false" type="id_Integer" value="" xmi:id="_HUIvSEQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FILE_NAME" prompt="FILE_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvSUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="FILE_PATH" prompt="FILE_PATH?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvSkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_TYPE" prompt="WEB_TYPE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvS0QrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_START_DATE" prompt="WEB_START_DATE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvTEQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_END_DATE" prompt="WEB_END_DATE?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvTUQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_QUERY_PARAM" prompt="WEB_QUERY_PARAM?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvTkQrEemC5P9aQNy0Fw"/>
+  <contextParameter comment="" name="WEB_DATE_FORMAT" prompt="WEB_DATE_FORMAT?" promptNeeded="false" type="id_String" value="" xmi:id="_HUIvT0QrEemC5P9aQNy0Fw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bc8ee49f-2ed0-4ec2-8d5c-7fff484fc281"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RlRfgU5oJ+cKr16XzjswfVW3a+tAqPAIVgVpyVBT8LwPg8JyTNLuWOcAeK3z7yLiaNj45sEKZLik
+gPciSWbEbQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_eaf308c3-b495-45be-868d-f402643da0a5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N38y5lfBumVH4l2gnr2RvhJoaE/v+JHSxK+FXE3s+2IrGrUO8ToOGiHRX9/phjrGh55DuMQJXMfV
+1U5ghca9Hw==</DigestValue></Reference></SignedInfo><SignatureValue>J7ZgksaUCfZ5Lye5R8uPn5JYU3cEQ2LgVK+nkifD1dtoIf2iyNTPAgiiK1caTiHRtY1AWYADgQky
+LpQ0U04iNl1+LE0THHJ/qvV18XXHhGNXW737WN0sBLaTdBSSL2q2/k8gqNwyZPlVeTjv7XbipALH
+lvHIJKVJa5lMwUG0AYLBJPsrF1v9kzWPj/ua9f/R+Y76EnktjoHEiraNENS+rbo+2Foqtf1Om2tW
+cubqJysiLM8T6ddtOwGMyxMWY/jLynSeJjeyQhJP59KoZV5Q9AH7lFSXVGuo4EU4PohdeAyBDRTe
+uR1U5XeamcmDQo5IXKdGdHJemGCMQROh8m2zvg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_eaf308c3-b495-45be-868d-f402643da0a5" Target="#_bc8ee49f-2ed0-4ec2-8d5c-7fff484fc281"><Timestamp>2019-03-11 18:25:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
