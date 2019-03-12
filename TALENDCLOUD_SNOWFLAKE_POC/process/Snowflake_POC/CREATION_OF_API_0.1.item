@@ -1346,7 +1346,7 @@
       <column comment="" defaultValue="" key="false" length="0" name="Dealership" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="StoreNo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="JNL_Amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="Post_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="0" name="Post_Date" nullable="true" pattern="&quot;EEE MMM dd HH:mm:ss 'MST' YYYY&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Cust_Num" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Desc_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="GLVehicleSaleAmtNew" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -1486,7 +1486,7 @@
       <column comment="" defaultValue="" key="false" length="0" name="Dealership" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="StoreNo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="JNL_Amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="Post_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="0" name="Post_Date" nullable="true" pattern="&quot;EEE MMM dd HH:mm:ss 'MST' YYYY&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Cust_Num" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Desc_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="GLVehicleSaleAmtNew" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -2352,13 +2352,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_883357b9-7a41-4974-a381-838859b04938"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+Rnfh6x45BUC1Jqv+pzq+J5RpI7BeqEccyFUYvt8UJOok35mVFBLDDRsfHbpz2h1keOMle3KMSze
-7oOHP6g6nQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_89ddfd44-44d0-4177-bc98-b24e75ebf965"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qwu4Jn35FnRMVtok0RR2BN/9sXuoV7RNLWmEyzBFqaqMHoIwPMJP2h5ZIdJCS9nxBuVxjU0fGxy4
-k5KE4hpe+w==</DigestValue></Reference></SignedInfo><SignatureValue>FzVEfGYyGLz20ZS63N26UAj8eBmGlHTNM+bwLiNbXQDvcPCX+vSxL60ZI1X7ecHSK9UzxvghUxCB
-rIPzIfU3SDfUgdIfDunznNBfC2NHTY9au6cdIpxSSrLuBaw4f1ixRWKb9O46gmzSSpDO6aPWX36B
-22LIwRHdfx3EbPTd+Ay2Hyf+Kj9xOv8Ag1Z9L3/dS6Myi/K5mhsVwKexuyXZEb5iRd/yiSk2v1cT
-VQnKz3b22Wpt+YkLsxIm2tJfkp32zZ3VaR4Gm021bipmfu+bU2tsu05QVaS5qwKXGpTRjfTZzseT
-EdaNOSk2/j1Wpsc9sT8t9pxOMC/3ZgP+Xu//yQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_50725393-cd0c-4966-aedd-6a5d40dc9b57"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>P+4rjiWhV4fV3VFoMQV5yzNTIuC3ub6+3jvgUHKrsD5zgbpjvX5Dvr8n5PX001hIIsDjrJQ/0z2+
+zax7rjOzzw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f022aa85-def3-4b84-a21b-3489db9eb0a8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>M50/596S6UE1meHDrjXkg7IX4Mt0JZAVn6OOTsUEnVi+OfIXt6NIU/TpZeDJJRTrnwakYkw3bJEz
+ezXFN0ZRAQ==</DigestValue></Reference></SignedInfo><SignatureValue>iuEEe1iOrJ+s6FiuCl0UFZijqQoKd2pIkij79DVazxRbAvyJ8qUKrwEVqdOXkAVgBvV8wVUThtpi
+1jW/HvxRlvH2Bkgx0lSphZfNijLLIBzm+wmArarGy7Wp2EyLV31YD5S4/WQM5QDlqCz1dMB666MM
+0mJN0Pz/zYJKWmkWwRMcrdC7A7rVG7vfyPkJhVR7FLpXCeLhfXdIx4BoBvNwuw/wfwP9nK+TMq6F
+U9/s3n2YsXVq4r+Qb5PPG04VilwLmHbLdLXcmBFeNeO6JP9EXOoaEXYmE300soyfWvbqgZeJTp52
+HnkR6sP+kIAEX2sgP4o0c01Avak86hvC95JsGw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -2382,4 +2382,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_89ddfd44-44d0-4177-bc98-b24e75ebf965" Target="#_883357b9-7a41-4974-a381-838859b04938"><Timestamp>2019-03-12 19:31:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f022aa85-def3-4b84-a21b-3489db9eb0a8" Target="#_50725393-cd0c-4966-aedd-6a5d40dc9b57"><Timestamp>2019-03-12 19:47:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
