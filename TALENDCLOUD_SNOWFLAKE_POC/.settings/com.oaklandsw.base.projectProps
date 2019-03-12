@@ -5,5 +5,7 @@ Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
 Structures,com.oaklandsw.base,order,0
+Structures/Jobs/LandingJob_API/tHMap_1/OutputWrapper.xml,com.oaklandsw.base,needsVal.0,Structures/Jobs/LandingJob_API/tHMap_1/out2.xml,/root/out2
 Structures/Jobs/LandingJob_API/tHMap_1/OutputWrapper.xml,com.oaklandsw.base,references.0,Structures/Jobs/LandingJob_API/tHMap_1/out2.xml,/root/out2
+Structures/Jobs/LandingJob_API/tHMap_1/out2.xml,com.oaklandsw.base,needsVal.0,Structures/Jobs/LandingJob_API/tHMap_1/out2Record.xml,/root/out2Record
 Structures/Jobs/LandingJob_API/tHMap_1/out2.xml,com.oaklandsw.base,references.0,Structures/Jobs/LandingJob_API/tHMap_1/out2Record.xml,/root/out2Record
