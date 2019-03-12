@@ -473,7 +473,7 @@
         <mapperTableEntries name="ModelNo" nullable="true" type="id_String"/>
         <mapperTableEntries name="Delivery_Date" nullable="true" type="id_String"/>
         <mapperTableEntries name="Vehicle_Description" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Vehicle_Sales_Amt" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="Vehicle_Sales_Amt" nullable="true" type="id_Double"/>
         <mapperTableEntries name="Dealership" nullable="true" type="id_String"/>
         <mapperTableEntries name="StoreNo" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="JNL_Amount" nullable="true" type="id_Integer"/>
@@ -1342,7 +1342,7 @@
       <column comment="" defaultValue="" key="false" length="0" name="ModelNo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Delivery_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Vehicle_Description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="Vehicle_Sales_Amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Vehicle_Sales_Amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Dealership" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="StoreNo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="JNL_Amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -1482,7 +1482,7 @@
       <column comment="" defaultValue="" key="false" length="0" name="ModelNo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Delivery_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Vehicle_Description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="Vehicle_Sales_Amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Vehicle_Sales_Amt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Double" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="Dealership" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="StoreNo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="0" name="JNL_Amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -2352,13 +2352,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2437b834-dadc-4210-bc97-978d4f2788f7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OwKbyZoM/BZ0g4KxXqgcSCtUCS9HL5qoGCUuJZNvWdZD3UUdJJFNMGOe/inc5PSso2/2jul9iOt5
-fModEXIn1A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ab84e920-08fd-4c8d-8fd6-272cd7e61853"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oMA+cepVnj8nn6mTjKU1waWdKRfDAV2Ell2tzR/TnVzOPwAJqtRppH18d+lYek/ozkf/I/6CUYoY
-5fHACRUsBw==</DigestValue></Reference></SignedInfo><SignatureValue>dJUW2E0STXs38A6RwL/sFrYtRc1tmZYSBfccoeEHMjP/zTCFRxFjhEHMtuDDhgH+7QRbUmUDs2Hx
-UNEdaJCnoEIoAUEztlMdkw/OspzeldUjX4uWzJm5m4xwuxFxKzZojrBjcPWI3k8NT0rLaqXJR8GH
-CtBnPEZ2Ke9o/N69HzThm9VEfMucC0r1s+AackDssE4OmDOsrwdfHLQXsIdi4sc1AMUv/wELNloA
-0CXiiqeF3cDtWj3D0lnyQKybxpqTd5aGBYNz98hwkezasVn09sbQ1bqX872ImwpRPezQtuR7TMPG
-qpw/xq4FVWGhMUh2byUy+rSRPGTvdhOVyQGiuA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_883357b9-7a41-4974-a381-838859b04938"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+Rnfh6x45BUC1Jqv+pzq+J5RpI7BeqEccyFUYvt8UJOok35mVFBLDDRsfHbpz2h1keOMle3KMSze
+7oOHP6g6nQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_89ddfd44-44d0-4177-bc98-b24e75ebf965"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qwu4Jn35FnRMVtok0RR2BN/9sXuoV7RNLWmEyzBFqaqMHoIwPMJP2h5ZIdJCS9nxBuVxjU0fGxy4
+k5KE4hpe+w==</DigestValue></Reference></SignedInfo><SignatureValue>FzVEfGYyGLz20ZS63N26UAj8eBmGlHTNM+bwLiNbXQDvcPCX+vSxL60ZI1X7ecHSK9UzxvghUxCB
+rIPzIfU3SDfUgdIfDunznNBfC2NHTY9au6cdIpxSSrLuBaw4f1ixRWKb9O46gmzSSpDO6aPWX36B
+22LIwRHdfx3EbPTd+Ay2Hyf+Kj9xOv8Ag1Z9L3/dS6Myi/K5mhsVwKexuyXZEb5iRd/yiSk2v1cT
+VQnKz3b22Wpt+YkLsxIm2tJfkp32zZ3VaR4Gm021bipmfu+bU2tsu05QVaS5qwKXGpTRjfTZzseT
+EdaNOSk2/j1Wpsc9sT8t9pxOMC/3ZgP+Xu//yQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -2382,4 +2382,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ab84e920-08fd-4c8d-8fd6-272cd7e61853" Target="#_2437b834-dadc-4210-bc97-978d4f2788f7"><Timestamp>2019-03-12 19:27:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_89ddfd44-44d0-4177-bc98-b24e75ebf965" Target="#_883357b9-7a41-4974-a381-838859b04938"><Timestamp>2019-03-12 19:31:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
