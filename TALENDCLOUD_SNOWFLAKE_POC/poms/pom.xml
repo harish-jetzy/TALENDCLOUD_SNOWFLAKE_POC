@@ -48,6 +48,7 @@
     <module>jobs/process/Automotive/salescalendar_0.1</module>
     <module>jobs/process/Automotive/loadcra_0.1</module>
     <module>jobs/process/Snowflake_POC/creation_of_api_0.1</module>
+    <module>jobs/process/Snowflake_POC/landingjob_api_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
