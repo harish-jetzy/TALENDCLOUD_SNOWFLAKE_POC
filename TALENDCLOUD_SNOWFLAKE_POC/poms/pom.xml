@@ -41,6 +41,12 @@
     <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_file_main_0.1</module>
     <module>jobs/process/job_02_PPDI/STUDY_LOAD/test_child_0.1</module>
     <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_07_api_child_0.1</module>
+    <module>jobs/process/Automotive/cra_datafinal_0.1</module>
+    <module>jobs/process/Automotive/gifieldsfirst_0.1</module>
+    <module>jobs/process/Automotive/vehicletype_0.1</module>
+    <module>jobs/process/Automotive/load_0.1</module>
+    <module>jobs/process/Automotive/salescalendar_0.1</module>
+    <module>jobs/process/Automotive/loadcra_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>

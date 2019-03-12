@@ -1,0 +1,221 @@
+package routines;
+
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.UUID;
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class GenerateData {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static void helloExample(String message) {
+        if (message == null) {
+            message = "World"; //$NON-NLS-1$
+        }
+        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+    
+    public static Date getFirstDate(Date date) {
+    	  Calendar cal = Calendar.getInstance();
+    	  cal.setTime(date);
+    	  cal.set(Calendar.DAY_OF_MONTH, cal.getActualMinimum(Calendar.DAY_OF_MONTH));
+    	  return cal.getTime();
+    	}
+    
+    public static Date getLastDate(Date date) {
+  	  Calendar cal = Calendar.getInstance();
+  	  cal.setTime(date);
+  	  cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH));
+  	  return cal.getTime();
+  	}
+    
+    
+    public static String getCustomerName() {
+        String[] list = { "HERTZ CANADA VEHICLES PARTERNERSHIP","NICOLE G EMANUEL","ENTERPRISE RENT A CAR CANADA LTD","DAVID T.K. THAI","DON VALLEY NORTH LEXUS","2000007 ONTARIO INC","DTGC CAR RENTAL LIMITED PARTNERSHIP","PHH VEHICLE MANAGEMENT SERVICES","PAUL A POTTS","RICK OGILVIE","WENDY HOUGH","DON VALLEY NORTH HYUNDAI","IVAN PETROVIC","TOMMY J NIELSON","JOHN M DOOLITTLE","MARK DINGWALL","PATRICIA BOWMAN","CAROLE T GISMONDI","NAYLOR GROUP INCORPORATED","ERIK M LINDSTOL","JOSEPH EDWIN TODD","THOMAS M HENDREN","JOHN THOMSON","DEBORAH A HAMMOND","ROBERT CORTINA","JANET L LAJOIE","D-SCOTT MARGISON","HANY AZAB","LISA ZAHN","DAVID ANGAS" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    
+    public static String getSalesManNum() {
+        String[] list = {"JO-ANNE THERON","ARNOLD GEISLER","SPENCER LUK","YIU KWANG DANIEL CHENG","DEMETRIOS JIM SAIROGLOU","SAI KIT ERIC CHU","YIU MAN SIMON LAM","CHADWICK WANG HONG LAW","SHANE SEGAL","PETER WING KWEN NG","ONOFRE BELO","AH-CHUN ADA WONG","ONOFRE BELO","HOSSIEN TONY REZAEI" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getLeasingCompany() {
+        String[] list = {"Connect Lease Corporation","Accurate Leasing Ltd","Axiom Leasing Inc","Cardel Leasing Limited","D&D Leasing","Foss National Leasing","Indcom Leasing","Infinity Leasing","Jim Pattinson Lease","Scotiabank Leasing Group"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+ 
+
+    
+        public static String getgenerateUUID() {
+            // Creating a random UUID (Universally unique identifier).
+            UUID uuid = UUID.randomUUID();
+            String randomUUIDString = uuid.toString();
+			return randomUUIDString;
+        
+        }
+   
+    
+    public static String getWeinsMake() {
+        String[] list = {"Acura","Audi","BMW","BMW Sav","Cadillac","Chevrolet","Dodge","Fiat","Ford","Genesis","GMC","Honda","Hyundai","Infinti","Jeep","Kia","Land Rover","Lexus","Lincoln","Maserati","Mazda","Mercedes","Mercedes-Benz","MINI","Nissan","Toyota"
+        	    };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+      
+    
+    public static String getBaseColor() {
+        String[] list = {"black","white","grey","silver","pearl"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getDealerShowroom() {
+        String[] list = {"DVNT","MVT","DVNL","LRH","DVNH","OVW","ACO"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getBaseColour() {
+        String[] list = {"blue","white","silver","black","pearl","Blue","grey"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    public static String getclr() {
+        String[] list = {"blue","white","silver","black","pearl","Blue","grey"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getBankName() {
+        String[] list = {"BANK OF MOTREAL","CASH DEAL","TOYOTA CREDIT CANADA","ROYAL BANK OF CANADA","WEINS CANADA LEASING","BANK OF NOVA SCOTIA"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getCloserName() {
+        String[] list = {"CHAO HUNG JASON CHEN","LYDIA KONG","ZHAN FENG FRANK YANG","MICHELLE LI-HUNG HO","YEUK-KIN MOSES CHAN","DONG JIN PETER KIM","YEUK-KIN MOSES CHAN"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+   /* public static String getVehicleModel(int i) {
+        String[] list = { "Civic","HLANDER HYBRID","A4","3-SERIES","NX","Maybach","Turbo S","Model S","Hardtop","Range Rover","Cherokee","Elantra","CX-9","Focus","RDX","Demon","YUKON","Pista","Altima","Ghost","Jetta","MKX","Outback","ATS-V","REGAL GS","Stelvio","Malibu","500e","Q70L","XJ"};
+        return list[i];
+    }*/
+    
+    public static String getVehicleDescription(int i1) {
+    	String Vehicle = getVehicleMake(i1);
+        
+        int i = getVehicleSmallId(Vehicle);
+    	
+        String[] list = { "Honda Civic","13,TOYOTA,4RUNNER,V6 SR5 5A","Audi A4","09,BMW,3-SERIES,4DR SDN 335D RWD","Lexus NX","Mercedes-Benz Maybach","Porsche Turbo S","Tesla Model S","Mini Cooper Hardtop","Range Rover","Jeep Cherokee","Hyundai Elantra","Mazda CX-9","Ford Focus","Acura RDX","Dodge Demon","02,GMC,YUKON,4DR 4WD 1500","Ferrari Pista","Nissan Altima","Rolls Royce Ghost","Volkswagen Jetta","Lincoln MKX","Subaru Outback","Cadillac ATS-V","Buick REGAL-GS","Alfa Romeo Stelvio","Chevrolet Malibu","Fiat 500e","Infinity Q70L","Jaguar XI","Kia","Rolls-Royce" };
+        return list[i];
+    }
+    
+    public static String getVehicleModel(int i) {
+        String[] list = {"180","190","200","220","230","240","250","260","280","300","320","350","380","400","420","450","500","560","600","1500","1800","1 Series","2 Series","3 Series","4 Series","4Runner","5 Series","6 Series","7 Series","8 Series","Accent","Accord","A-Class","Almera","Altima","Amarok","AMG GT","Arteon","Avalon","B2600","B4000","B-Class","Blizzard","Bluebird","Bora","Bronco","BT-50","Bundera","C20","C30","Camargue","Camaro","Camry","Capella","Capri","Caravelle","Carnival","C-Class","Celica","Cerato","Citivan","Civic","CLA-Class","CLC-Class","CL-Class","CLK-Class","CLS-Class","Cobra","Concerto","Corniche","Corolla","Corona","Corsair","Cortina","Corvette","Courier","CR-V","CR-Z","Cullinan","CX-3","CX-5","CX-7","CX-8","CX-9","Dawn","Dyna","E1300","E2500","E3000","E4100","Echo","E-Class","Econovan","EcoSport","Elantra","Escape","Escort","Everest","F100","F1000","F150","F250","F350","Festiva","Fiesta","FJ Cruiser","Flying Spur","Focus","Fortuner","G-Class","Getz","Ghost","GLA-Class","GLC-Class","GL-Class","GLE-Class","GLS-Class","Golf","Grand Carnival","Grandeur","GT-R","HiAce","HiLux","Homer","HR-V","i3","i8","Impala","Insight","Integra","Jetta","Juke","K2700","K2900","Land Cruiser","Lantra","Laser","M2","M3","M4","M5","M6","Magentis","Marco Polo Activity","Maxima","Mazda2","Mazda3","Mazda6","M-Class","MDX","Mentor","MPV","Mulliner","Murano","Mustang","MX-5","MX-6","Navara","Nexo","NSX","Odyssey","Optima","Park Ward","Passat","Pathfinder","Phantom","Pintara","Polo","Prefect","Prelude","Prius","Prius c","Prius v","Ranger","RAV4","R-Class","Rio","Rondo","RX-7","RX-8","Santa Fe","S-Class","Serena","Silverado","SL-Class","SLK-Class","SLS","Sonata","Spectra","Spectron","Sportage","Stanza","Stinger","Taurus","Terracan","Tiguan","Tiida","Transporter","Tucson","Valente","V-Class","Veloster","Vento","Viano","Vito","Wraith","X1","X2","X3","X4","X5","X6","X7","X-Class","Z3","Z4","Zodiac" };
+        return list[i];
+    }
+    /*public static String getVehicleMake(int i) {
+        String[] list = { "Honda","Toyota","Audi","BMW","Lexus","Mercedes-Benz","Porsche","Tesla","Mini ","Range Rover","Jeep","Hyundai","Mazda","Ford","Acura","Dodge","General Motors Corporation","Ferrari","Nissan","Rolls Royce ","Volkswagen","Lincoln","Subaru","Cadillac","Buick","Alfa Romeo","Chevrolet","Fiat","Infinity","Jaguar"};
+        return list[i];
+    }*/
+    
+    
+    public static int getVehicleSmallId(String Vehicle) {
+        String[] list = { "Honda","Toyota","Audi","BMW","Lexus","Mercedes-Benz","Porsche","Tesla","Mini ","Range Rover","Jeep","Hyundai","Mazda","Ford","Acura","Dodge","General Motors Corporation","Ferrari","Nissan","Rolls Royce ","Volkswagen","Lincoln","Subaru","Cadillac","Buick","Alfa Romeo","Chevrolet","Fiat","Infinity","Jaguar","Kia","Rolls-Royce"};
+        
+        int i = Arrays.asList(list).indexOf(Vehicle);
+        if(i<0)
+        	System.out.println("ID = "+i+" , Vehicle = "+Vehicle);
+        
+       return (i<0?0:i);
+    }
+    
+    public static String getVehicleMake(int i) {
+        String[] list = {"Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mazda","Mazda","BMW","BMW","BMW","BMW","Toyota","BMW","BMW","BMW","BMW","Hyundai","Honda","Mercedes-Benz","Nissan","Nissan","Volkswagen","Mercedes-Benz","Volkswagen","Toyota","Mazda","Mazda","Mercedes-Benz","Toyota","Nissan","Volkswagen","Ford","Mazda","Toyota","Chevrolet","Chevrolet","Rolls-Royce","Chevrolet","Toyota","Mazda","Ford","Volkswagen","Kia","Mercedes-Benz","Toyota","Kia","Volkswagen","Honda","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Ford","Honda","Rolls-Royce","Toyota","Toyota","Ford","Ford","Chevrolet","Ford","Honda","Honda","Rolls-Royce","Mazda","Mazda","Mazda","Mazda","Mazda","Rolls-Royce","Toyota","Mazda","Mazda","Mazda","Mazda","Toyota","Mercedes-Benz","Ford","Ford","Hyundai","Ford","Ford","Ford","Ford","Mazda","Ford","Ford","Ford","Ford","Ford","Toyota","Rolls-Royce","Ford","Toyota","Mercedes-Benz","Hyundai","Rolls-Royce","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Volkswagen","Kia","Hyundai","Nissan","Toyota","Toyota","Nissan","Honda","BMW","BMW","Chevrolet","Honda","Honda","Volkswagen","Nissan","Kia","Kia","Toyota","Hyundai","Ford","BMW","BMW","BMW","BMW","BMW","Kia","Mercedes-Benz","Nissan","Mazda","Mazda","Mazda","Mercedes-Benz","Honda","Kia","Mazda","Rolls-Royce","Nissan","Ford","Mazda","Mazda","Nissan","Hyundai","Honda","Honda","Kia","Rolls-Royce","Volkswagen","Nissan","Rolls-Royce","Nissan","Volkswagen","Ford","Honda","Toyota","Toyota","Toyota","Ford","Toyota","Mercedes-Benz","Kia","Kia","Mazda","Mazda","Hyundai","Mercedes-Benz","Nissan","Chevrolet","Mercedes-Benz","Mercedes-Benz","Mercedes-Benz","Hyundai","Kia","Ford","Kia","Nissan","Kia","Ford","Hyundai","Volkswagen","Nissan","Volkswagen","Hyundai","Mercedes-Benz","Mercedes-Benz","Hyundai","Volkswagen","Mercedes-Benz","Mercedes-Benz","Rolls-Royce","BMW","BMW","BMW","BMW","BMW","BMW","BMW","Mercedes-Benz","BMW","BMW","Ford" };
+        return list[i];
+    }
+    public static String getVehicleAcctNum(int i1) {
+        String Vehicle = getVehicleMake(i1);
+        
+        int i = getVehicleSmallId(Vehicle);
+    	
+    	String[] list = { "H-1234","T-4567","A-7890","B-9135","L-1058","M-7410","P-6402","T-8502","MI-6663","R-25052","J-7943","H-7891","MA-4621","F-7410","AC-8520","D-9630","GMC-1599","FE-3577","N-4862","RR-7531","V-6284","LI-8580","S-9999","C-7777","BU-5151","AR-3333","CH-1499","FI-6573","I-6231","JA-5555","K-1872","RR-6251"};
+        return list[i].split("-")[0];
+    }
+    
+    public static String getDelearhip() {
+        String[] list = { "SMH","ABT","LMNA","DVNB","MLL","GLEM","BNRP","EVTE","RUGM","LRR","JEEP","AAH","STM","ORF","MDA","TTD","GMC","PHXF","WTN","CRR","WVW","MKL","NBS","UGC","PMB","ZAR","OPC","OFF","BGI","XVJ" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getSalesType() {
+        String[] list = { "Retail ","Fleet ","Leasing","Wholesale","Others" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+ 
+   
+    public static String getSalesMethod() {
+        String[] list = { "Retail","Fleet","Wholesale","LBO","Commission" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getSalesCategory() {
+        String[] list = { "Sales","Cost","F&I Sales","Commission","FSM Commission","Count","F&I Count" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    public static String getSalesManName() {
+        String[] list = { "Shanmugalingam Manojkumar","Arnold Geisler","Yiu Kwong Daniel Cheng","Ah-Chun Ada Wong","Spencer Luk","Jo-Anne Theron","Demetrios Jim Sairogulu","Hameed Chennankunnath","Sai Kit Eric Chu","Yiu Man Simon Lam","Hossein Tony Rezaei","Chadwick Wan-Hong Law","Shane Segal","Onofre Belo","Peter Wing Kuen Ng"};
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+    
+    public static String getJNLdescription() {
+        String[] list = { "Invoice Journal","A/P Debit note journal","Journal Entry Journal","Cash Sales Journal","Credit Note Joural","Debit Note Joural" };
+        Integer random = 0 + ((Long) Math.round(Math.random() * (list.length - 1 - 0))).intValue();
+        return list[random];
+    }
+    
+}
