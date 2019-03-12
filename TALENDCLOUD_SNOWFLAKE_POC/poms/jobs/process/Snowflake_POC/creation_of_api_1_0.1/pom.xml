@@ -9,9 +9,9 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.talendcloud_snowflake_poc.service</groupId>
-  <artifactId>CREATION_OF_API</artifactId>
+  <artifactId>CREATION_OF_API_1</artifactId>
   <version>0.1.0</version>
-  <name>TALENDCLOUD_SNOWFLAKE_POC CREATION_OF_API-0.1.0 (0.1,Job Designs)</name>
+  <name>TALENDCLOUD_SNOWFLAKE_POC CREATION_OF_API_1-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -19,11 +19,11 @@
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>talendcloud_snowflake_poc</talend.project.name.lowercase>
-    <talend.job.path>talendcloud_snowflake_poc/creation_of_api_0_1</talend.job.path>
+    <talend.job.path>talendcloud_snowflake_poc/creation_of_api_1_0_1</talend.job.path>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
     <talend.product.version>7.0.1.20180411_1414</talend.product.version>
-    <talend.job.finalName>creation_of_api_0_1</talend.job.finalName>
+    <talend.job.finalName>creation_of_api_1_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.talendcloud_snowflake_poc.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.talendcloud_snowflake_poc.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.stat>true</talend.job.stat>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>CREATION_OF_API</talend.job.name>
+    <talend.job.name>CREATION_OF_API_1</talend.job.name>
     <talend.job.id>_aswFoEUbEem5fvX_zcBCxA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.framework></talend.job.framework>
