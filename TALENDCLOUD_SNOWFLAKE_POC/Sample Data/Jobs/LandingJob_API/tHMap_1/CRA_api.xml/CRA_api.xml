@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CRA>
+  <Sales>
+    <VehicleMakeKey>Toyota_Fortuner</VehicleMakeKey>
+    <UniqueKey>2007_430900_9864</UniqueKey>
+    <SalesDate>01-01-2015</SalesDate>
+    <Method>LBO</Method>
+    <Acct_Type>Wholesale</Acct_Type>
+    <Category>Count</Category>
+    <Status>Used</Status>
+    <Description>Toyota</Description>
+    <Num_Ind>9863</Num_Ind>
+    <Additional_Criteria>ECP</Additional_Criteria>
+    <used_Cars>Yes</used_Cars>
+    <JNL_GL_Acct_Num>T-4349</JNL_GL_Acct_Num>
+    <Make>Toyota</Make>
+    <AcctFlag>Yes</AcctFlag>
+    <Source_Num>975376</Source_Num>
+    <JNL_Ref_Num>T-4349</JNL_Ref_Num>
+    <JNL_GL_Acct_Num_tmp>T-4349</JNL_GL_Acct_Num_tmp>
+    <JNL_Sales_Type>Leasing</JNL_Sales_Type>
+    <Month>April</Month>
+    <JNL_Desc>Credit Note Joural</JNL_Desc>
+    <Cust_Name>JOHN THOMSON</Cust_Name>
+    <Cust_Loc>AZ</Cust_Loc>
+    <VIN>18d19284-4582-4c1e-826a-a5e69a3bb60c</VIN>
+    <CRA_StockNo>430900</CRA_StockNo>
+    <UniqueKeyJournal>2007_430900_9864</UniqueKeyJournal>
+    <ModelNo>Fortuner</ModelNo>
+    <Delivery_Date>2012-04-28</Delivery_Date>
+    <Vehicle_Description>13,TOYOTA,4RUNNER,V6 SR5 5A</Vehicle_Description>
+    <Vehicle_Sales_Amt>41227</Vehicle_Sales_Amt>
+    <Dealership>GMC</Dealership>
+    <StoreNo>28</StoreNo>
+    <JNL_Amount>5309</JNL_Amount>
+    <Post_Date>05-01-2008</Post_Date>
+    <Cust_Num>9864</Cust_Num>
+    <Desc_2>13,TOYOTA,4RUNNER,V6 SR5 5A</Desc_2>
+    <GLVehicleSaleAmtNew>0</GLVehicleSaleAmtNew>
+    <GLVehicleSaleAmtUsed>0</GLVehicleSaleAmtUsed>
+    <GLVehicleCostAmtNew>0</GLVehicleCostAmtNew>
+    <GLVehicleCostAmtUsed>0</GLVehicleCostAmtUsed>
+    <GLFISaleAmtNewRev>0</GLFISaleAmtNewRev>
+    <GLFISaleAmtUsedRev>0</GLFISaleAmtUsedRev>
+    <GLFISaleAmtNewGP>0</GLFISaleAmtNewGP>
+    <GLFISaleAmtUsedGP>0</GLFISaleAmtUsedGP>
+    <GLFICostAmtNew>0</GLFICostAmtNew>
+    <GLFICostAmtUsed>0</GLFICostAmtUsed>
+    <GLVehicleSaleAmtNewRetail>0</GLVehicleSaleAmtNewRetail>
+    <GLVehicleSaleAmtUsedRetail>0</GLVehicleSaleAmtUsedRetail>
+    <GLVehicleCostAmtNewRetail>0</GLVehicleCostAmtNewRetail>
+    <GLVehicleCostAmtUsedRetail>0</GLVehicleCostAmtUsedRetail>
+    <GLFISaleAmtNewRetailRev>0</GLFISaleAmtNewRetailRev>
+    <GLFISaleAmtUsedRetailRev>0</GLFISaleAmtUsedRetailRev>
+    <GLFISaleAmtNewRetailGP>0</GLFISaleAmtNewRetailGP>
+    <GLFISaleAmtUsedRetailGP>0</GLFISaleAmtUsedRetailGP>
+    <GLFICostAmtNewRetail>0</GLFICostAmtNewRetail>
+    <GLFICostAmtUsedRetail>0</GLFICostAmtUsedRetail>
+    <SalesmanCommission>0</SalesmanCommission>
+    <FAMCommission>0</FAMCommission>
+    <StoreCountNew>0</StoreCountNew>
+    <StoreCountUsed>530900</StoreCountUsed>
+    <ECPCount>0</ECPCount>
+    <GLSaleAmtNewRev>0</GLSaleAmtNewRev>
+    <GLSaleAmtNewGP>0</GLSaleAmtNewGP>
+    <GLSaleAmtUsedRev>0</GLSaleAmtUsedRev>
+    <GLSaleAmtUsedGP>0</GLSaleAmtUsedGP>
+    <GLCostAmtNew>0</GLCostAmtNew>
+    <GLCostAmtUsed>0</GLCostAmtUsed>
+    <GLSaleAmtNewRetailRev>0</GLSaleAmtNewRetailRev>
+    <GLSaleAmtNewRetailGP>0</GLSaleAmtNewRetailGP>
+    <GLSaleAmtUsedRetailGP>0</GLSaleAmtUsedRetailGP>
+    <GLSaleAmtUsedRetailRev>0</GLSaleAmtUsedRetailRev>
+    <GLCostAmtNewRetail>0</GLCostAmtNewRetail>
+    <GLCostAmtUsedRetail>0</GLCostAmtUsedRetail>
+    <GLCPOSales>0</GLCPOSales>
+    <NewUsed>Used</NewUsed>
+    <F_I_StockNo>4481</F_I_StockNo>
+    <UniqueKeyJournalFI>2007_430900_9864</UniqueKeyJournalFI>
+    <Branch>AZ</Branch>
+    <MAKE>Toyota</MAKE>
+    <CATLINE_EACT>Fortuner</CATLINE_EACT>
+    <DECS_DV/>
+    <ModelYear>2011</ModelYear>
+    <SalesType>Wholesale</SalesType>
+    <DEAL_CATEG/>
+    <STAT/>
+    <SalesManName>CHADWICK WANG HONG LAW</SalesManName>
+    <SaleCommission>93827.8349714022</SaleCommission>
+    <SalePrice>288493</SalePrice>
+    <PRICE>150243</PRICE>
+    <SaleDate>2012-04-23</SaleDate>
+    <LeasingTerm>72</LeasingTerm>
+    <FICostAMT>1384</FICostAMT>
+    <BankName>WEINS CANADA LEASING</BankName>
+    <SalesProfit>0.121278272997393</SalesProfit>
+    <NetFI>11448</NetFI>
+    <CloserName>MICHELLE LI-HUNG HO</CloserName>
+    <FinanceComm>12671</FinanceComm>
+    <ZipCode>63156</ZipCode>
+    <CustomerGender>Others</CustomerGender>
+    <CustomerGenderUpdated>Others</CustomerGenderUpdated>
+    <CustomerAge>58</CustomerAge>
+    <CLR/>
+    <BaseColour>white</BaseColour>
+    <LeasingCompany>Cardel Leasing Limited</LeasingCompany>
+    <WCL>0</WCL>
+    <FinanceFlag>Yes</FinanceFlag>
+    <SalesManNum>Chadwick Wan-Hong Law</SalesManNum>
+    <BOUNS_AMT>3163</BOUNS_AMT>
+    <PDI>4926</PDI>
+    <AdminFee>3339</AdminFee>
+    <Freight>51.0876308478973</Freight>
+    <AirTax>100</AirTax>
+    <AccountingCost>119</AccountingCost>
+    <VehicleCost>41227</VehicleCost>
+    <AftDesc1/>
+    <AftDesc2/>
+    <AftDesc3/>
+    <AftDesc4/>
+    <AftDesc5/>
+    <AfterSalesValue/>
+    <AfterSalesCost/>
+    <LastPaymentDate>2015-03-26</LastPaymentDate>
+    <CNT_CAT/>
+    <DealerShowroom>DVNL</DealerShowroom>
+    <VIN_NO>18d19284-4582-4c1e-826a-a5e69a3bb60c</VIN_NO>
+    <CRI_POL_COST>2581</CRI_POL_COST>
+    <LOE_POL_COST>708293</LOE_POL_COST>
+    <POLICY_COST>5871</POLICY_COST>
+    <Latitude>70.95047</Latitude>
+    <Longitude>-39.14652537691984</Longitude>
+    <CityZip>97198</CityZip>
+    <ProvinceZip>NE</ProvinceZip>
+    <BaseColor>black</BaseColor>
+    <Weins_Make>Chevrolet</Weins_Make>
+    <Penetration>68.675097837382</Penetration>
+    <New_Used>New</New_Used>
+    <SalesType2>DOLLARS</SalesType2>
+    <LeasingFlag>Yes</LeasingFlag>
+    <LeaseFlag>Yes</LeaseFlag>
+  </Sales>
+  <Sales>
+    <VehicleMakeKey>BMW_8 Series</VehicleMakeKey>
+    <UniqueKey>2007_601073_5888</UniqueKey>
+    <SalesDate>01-01-2015</SalesDate>
+    <Method>Wholesale</Method>
+    <Acct_Type>Fleet </Acct_Type>
+    <Category>F&amp;I Count</Category>
+    <Status>Used</Status>
+    <Description>BMW</Description>
+    <Num_Ind>5887</Num_Ind>
+    <Additional_Criteria>ECP</Additional_Criteria>
+    <used_Cars>Yes</used_Cars>
+    <JNL_GL_Acct_Num>B-7864</JNL_GL_Acct_Num>
+    <Make>BMW</Make>
+    <AcctFlag>Yes</AcctFlag>
+    <Source_Num>847946</Source_Num>
+    <JNL_Ref_Num>B-7864</JNL_Ref_Num>
+    <JNL_GL_Acct_Num_tmp>B-7864</JNL_GL_Acct_Num_tmp>
+    <JNL_Sales_Type>Others</JNL_Sales_Type>
+    <Month>February</Month>
+    <JNL_Desc>Credit Note Joural</JNL_Desc>
+    <Cust_Name>DEBORAH A HAMMOND</Cust_Name>
+    <Cust_Loc>SD</Cust_Loc>
+    <VIN>e3e6819a-2874-4426-a7cb-be0d057bbe7f</VIN>
+    <CRA_StockNo>601073</CRA_StockNo>
+    <UniqueKeyJournal>2007_601073_5888</UniqueKeyJournal>
+    <ModelNo>8 Series</ModelNo>
+    <Delivery_Date>2014-02-26</Delivery_Date>
+    <Vehicle_Description>09,BMW,3-SERIES,4DR SDN 335D RWD</Vehicle_Description>
+    <Vehicle_Sales_Amt>56277</Vehicle_Sales_Amt>
+    <Dealership>WTN</Dealership>
+    <StoreNo>23</StoreNo>
+    <JNL_Amount>2343</JNL_Amount>
+    <Post_Date>01-01-2007</Post_Date>
+    <Cust_Num>5888</Cust_Num>
+    <Desc_2>09,BMW,3-SERIES,4DR SDN 335D RWD</Desc_2>
+    <GLVehicleSaleAmtNew>0</GLVehicleSaleAmtNew>
+    <GLVehicleSaleAmtUsed>0</GLVehicleSaleAmtUsed>
+    <GLVehicleCostAmtNew>0</GLVehicleCostAmtNew>
+    <GLVehicleCostAmtUsed>0</GLVehicleCostAmtUsed>
+    <GLFISaleAmtNewRev>0</GLFISaleAmtNewRev>
+    <GLFISaleAmtUsedRev>0</GLFISaleAmtUsedRev>
+    <GLFISaleAmtNewGP>0</GLFISaleAmtNewGP>
+    <GLFISaleAmtUsedGP>0</GLFISaleAmtUsedGP>
+    <GLFICostAmtNew>0</GLFICostAmtNew>
+    <GLFICostAmtUsed>0</GLFICostAmtUsed>
+    <GLVehicleSaleAmtNewRetail>0</GLVehicleSaleAmtNewRetail>
+    <GLVehicleSaleAmtUsedRetail>0</GLVehicleSaleAmtUsedRetail>
+    <GLVehicleCostAmtNewRetail>0</GLVehicleCostAmtNewRetail>
+    <GLVehicleCostAmtUsedRetail>0</GLVehicleCostAmtUsedRetail>
+    <GLFISaleAmtNewRetailRev>0</GLFISaleAmtNewRetailRev>
+    <GLFISaleAmtUsedRetailRev>0</GLFISaleAmtUsedRetailRev>
+    <GLFISaleAmtNewRetailGP>0</GLFISaleAmtNewRetailGP>
+    <GLFISaleAmtUsedRetailGP>0</GLFISaleAmtUsedRetailGP>
+    <GLFICostAmtNewRetail>0</GLFICostAmtNewRetail>
+    <GLFICostAmtUsedRetail>0</GLFICostAmtUsedRetail>
+    <SalesmanCommission>0</SalesmanCommission>
+    <FAMCommission>0</FAMCommission>
+    <StoreCountNew>0</StoreCountNew>
+    <StoreCountUsed>0</StoreCountUsed>
+    <ECPCount>234300</ECPCount>
+    <GLSaleAmtNewRev>0</GLSaleAmtNewRev>
+    <GLSaleAmtNewGP>0</GLSaleAmtNewGP>
+    <GLSaleAmtUsedRev>0</GLSaleAmtUsedRev>
+    <GLSaleAmtUsedGP>0</GLSaleAmtUsedGP>
+    <GLCostAmtNew>0</GLCostAmtNew>
+    <GLCostAmtUsed>0</GLCostAmtUsed>
+    <GLSaleAmtNewRetailRev>0</GLSaleAmtNewRetailRev>
+    <GLSaleAmtNewRetailGP>0</GLSaleAmtNewRetailGP>
+    <GLSaleAmtUsedRetailGP>0</GLSaleAmtUsedRetailGP>
+    <GLSaleAmtUsedRetailRev>0</GLSaleAmtUsedRetailRev>
+    <GLCostAmtNewRetail>0</GLCostAmtNewRetail>
+    <GLCostAmtUsedRetail>0</GLCostAmtUsedRetail>
+    <GLCPOSales>0</GLCPOSales>
+    <NewUsed>Used</NewUsed>
+    <F_I_StockNo>1385</F_I_StockNo>
+    <UniqueKeyJournalFI>2007_601073_5888</UniqueKeyJournalFI>
+    <Branch>SD</Branch>
+    <MAKE>BMW</MAKE>
+    <CATLINE_EACT>8 Series</CATLINE_EACT>
+    <DECS_DV/>
+    <ModelYear>2013</ModelYear>
+    <SalesType>Fleet </SalesType>
+    <DEAL_CATEG/>
+    <STAT/>
+    <SalesManName>SHANE SEGAL</SalesManName>
+    <SaleCommission>57628.5299752319</SaleCommission>
+    <SalePrice>372108</SalePrice>
+    <PRICE>413409</PRICE>
+    <SaleDate>2014-02-20</SaleDate>
+    <LeasingTerm>46</LeasingTerm>
+    <FICostAMT>1685</FICostAMT>
+    <BankName>ROYAL BANK OF CANADA</BankName>
+    <SalesProfit>0.408690537748419</SalesProfit>
+    <NetFI>24449</NetFI>
+    <CloserName>LYDIA KONG</CloserName>
+    <FinanceComm>12405</FinanceComm>
+    <ZipCode>52648</ZipCode>
+    <CustomerGender>Female</CustomerGender>
+    <CustomerGenderUpdated>Female</CustomerGenderUpdated>
+    <CustomerAge>49</CustomerAge>
+    <CLR/>
+    <BaseColour>black</BaseColour>
+    <LeasingCompany>Accurate Leasing Ltd</LeasingCompany>
+    <WCL>0</WCL>
+    <FinanceFlag>Yes</FinanceFlag>
+    <SalesManNum>Yiu Kwong Daniel Cheng</SalesManNum>
+    <BOUNS_AMT>860</BOUNS_AMT>
+    <PDI>911</PDI>
+    <AdminFee>3975</AdminFee>
+    <Freight>66.4263938612406</Freight>
+    <AirTax>100</AirTax>
+    <AccountingCost>162</AccountingCost>
+    <VehicleCost>56275</VehicleCost>
+    <AftDesc1/>
+    <AftDesc2/>
+    <AftDesc3/>
+    <AftDesc4/>
+    <AftDesc5/>
+    <AfterSalesValue/>
+    <AfterSalesCost/>
+    <LastPaymentDate>2012-05-25</LastPaymentDate>
+    <CNT_CAT/>
+    <DealerShowroom>DVNH</DealerShowroom>
+    <VIN_NO>e3e6819a-2874-4426-a7cb-be0d057bbe7f</VIN_NO>
+    <CRI_POL_COST>1349</CRI_POL_COST>
+    <LOE_POL_COST>551262</LOE_POL_COST>
+    <POLICY_COST>9756</POLICY_COST>
+    <Latitude>44.042877</Latitude>
+    <Longitude>-103.74449148827664</Longitude>
+    <CityZip>41765</CityZip>
+    <ProvinceZip>KS</ProvinceZip>
+    <BaseColor>grey</BaseColor>
+    <Weins_Make>MINI</Weins_Make>
+    <Penetration>64.1965693536863</Penetration>
+    <New_Used>Used</New_Used>
+    <SalesType2>DOLLARS</SalesType2>
+    <LeasingFlag>No</LeasingFlag>
+    <LeaseFlag>No</LeaseFlag>
+  </Sales>
+</CRA>
