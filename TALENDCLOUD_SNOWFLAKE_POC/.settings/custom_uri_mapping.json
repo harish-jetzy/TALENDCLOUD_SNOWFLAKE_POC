@@ -24,5 +24,6 @@
   "mvn:com.cedarsoftware/json-io/4.9.9-TALEND/jar" : "mvn:com.cedarsoftware/json-io/4.9.9-TALEND/jar",
   "mvn:org.talend.daikon/daikon/0.23.0/jar" : "mvn:org.talend.daikon/daikon/0.23.0/jar",
   "mvn:javax.servlet/javax.servlet-api/3.1.0/jar" : "mvn:javax.servlet/javax.servlet-api/3.1.0/jar",
-  "mvn:net.snowflake/snowflake-jdbc/3.5.3/jar" : "mvn:net.snowflake/snowflake-jdbc/3.5.3/jar"
+  "mvn:net.snowflake/snowflake-jdbc/3.5.3/jar" : "mvn:net.snowflake/snowflake-jdbc/3.5.3/jar",
+  "mvn:org.talend.components/components-snowflake/0.23.2/jar" : "mvn:org.talend.components/components-snowflake/0.23.2/jar"
 }
