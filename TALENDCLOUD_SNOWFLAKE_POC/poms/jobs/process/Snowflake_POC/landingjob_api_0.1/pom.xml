@@ -108,7 +108,7 @@
     <dependency>
       <groupId>org.talend.components</groupId>
       <artifactId>components-snowflake</artifactId>
-      <version>0.23.1</version>
+      <version>0.23.2</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
