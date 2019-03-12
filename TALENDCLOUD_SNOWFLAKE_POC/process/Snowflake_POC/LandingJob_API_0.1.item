@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="account_name" prompt="account_name?" promptNeeded="false" repositoryContextId="_OK4IEEQsEemC5P9aQNy0Fw" type="id_String" value="jy35742.east-us-2.azure"/>
+    <contextParameter comment="" name="datawarehouse" prompt="datawarehouse?" promptNeeded="false" repositoryContextId="_OK4IEEQsEemC5P9aQNy0Fw" type="id_String" value="AutomotiveSales_DW"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_OK4IEEQsEemC5P9aQNy0Fw" type="id_String" value="Harish@16"/>
+    <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="_OK4IEEQsEemC5P9aQNy0Fw" type="id_String" value="harish"/>
+  </context>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -104,13 +111,1111 @@
     <routinesParameter id="_IS0poEE5EemC5P9aQNy0Fw" name="TalendStringUtil"/>
     <routinesParameter id="_ISpqgEE5EemC5P9aQNy0Fw" name="TalendString"/>
   </parameters>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_071279bc-7e4b-41d7-8394-3ea8fd3c948c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8YoyMLVY3CXtoVt8TOrX2Iyfkgc+8onxeyTcSytIhoIqxJ4bCqRnMBGs+5kSn2T+TqB/ZOYEJIHe
-QqavuXGgMg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_06cd179e-aac0-429a-b42b-f1f842907b45"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aeACejmiOIh0HYBHqI9yadC0iHrCTvs4nagNv/0hV+RDbbmI/LxXYd54o+y6qRWGT0eP5y0hHCcw
-YIMR9Z3R2w==</DigestValue></Reference></SignedInfo><SignatureValue>hkP9O4wzeUDi5O1suLCyQP18zoTc4hP5nnfluQSrpC5ViNnMuoRSj5OjeN7BeZQzLDUMyFAKsOd5
-29gluePQgSRnRFwR8XGN0Q/W9w74Ry52gfsMLbtUo1STVtE2dADsF47f16X+CZrYtXAl6Ym2a4st
-Kwt+QaS3NudQ3EF+8EL0duE0L/g9Lj34YRALz0AjbcCG9GA2/7dfjh8tOECyyXKnWzNENxu1a0v8
-zl1PW3PUh3KAc1OdItg28J/k0YyV5VT1hhvSiqCELvCf4Jy0xUSo2gJ5C5eA369rAkjVlVsa6owf
-Y72hkxjDf1y8hlfOJC9g8GvB5zlcKNjUP5JKGw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://localhost:8088/CRA/AllData&quot;"/>
+    <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
+    <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" show="false" value="application/xml"/>
+    <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/xml"/>
+    <elementParameter field="TABLE" name="QUERY"/>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;http://www.talend.org/rest/&quot;"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="BASIC"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="PoLvNyVG2XWndNDdLn696A=="/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_WEBCLIENT_OPERATION_REPORTING" value="true"/>
+    <elementParameter field="CHECK" name="CONVERT_RESPONSE_TO_DOM" value="true"/>
+    <elementParameter field="CHECK" name="UNWRAP_JSON_REQUEST" show="false" value="false"/>
+    <elementParameter field="CHECK" name="WRAP_JSON_RESPONSE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" show="false" value="false"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_CHUNKED_ENCODING" show="false" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="30"/>
+    <elementParameter field="LABEL" name="CONNECTION_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+    <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="60"/>
+    <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRESTClient_1">
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="RESPONSE" name="RESPONSE">
+      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FAULT" name="FAULT">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="out1" name="out1">
+      <column comment="" key="false" length="-1" name="VehicleMakeKey" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UniqueKey" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Method" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Acct_Type" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Category" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Status" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Description" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Num_Ind" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Additional_Criteria" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="used_Cars" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_GL_Acct_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Make" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AcctFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Source_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_Ref_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_GL_Acct_Num_tmp" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_Sales_Type" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Month" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_Desc" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Cust_Name" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Cust_Loc" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VIN" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CRA_StockNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UniqueKeyJournal" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ModelNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Delivery_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Vehicle_Description" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Vehicle_Sales_Amt" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Dealership" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="StoreNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="JNL_Amount" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Post_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Cust_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Desc_2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SalesmanCommission" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FAMCommission" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="StoreCountNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="StoreCountUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ECPCount" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCPOSales" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="NewUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="F_I_StockNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UniqueKeyJournalFI" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Branch" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MAKE_1" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CATLINE_EACT" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DECS_DV" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ModelYear" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesType" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DEAL_CATEG" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="STAT" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesManName" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SaleCommission" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SalePrice" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="PRICE" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SaleDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="LeasingTerm" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FICostAMT" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BankName" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SalesProfit" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="NetFI" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CloserName" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FinanceComm" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ZipCode" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerGender" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerGenderUpdated" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CustomerAge" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CLR" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BaseColour" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LeasingCompany" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="WCL" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FinanceFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesManNum" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="BOUNS_AMT" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="PDI" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AdminFee" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Freight" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AirTax" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AccountingCost" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="VehicleCost" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc1" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc3" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc4" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc5" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AfterSalesValue" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AfterSalesCost" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LastPaymentDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CNT_CAT" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DealerShowroom" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VIN_NO" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CRI_POL_COST" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="LOE_POL_COST" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="POLICY_COST" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Latitude" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Longitude" nullable="true" originalLength="-1" precision="-1" sourceType="id_Double" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CityZip" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProvinceZip" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BaseColor" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Weins_Make" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Penetration" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="New_Used" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesType2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LeasingFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LeaseFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
+        <nodes name="statusCode" type="id_Integer" xpath="row1/statusCode"/>
+        <nodes expression="" name="body" type="id_Document" xpath="row1/body">
+          <children loop="true" main="true" name="CRA" type="id_String" xpath="row1.body:/CRA">
+            <children name="Sales" type="id_String" xpath="row1.body:/CRA/Sales">
+              <children name="VehicleMakeKey" outgoingConnections="//@node.1/@nodeData/@connections.0" type="id_String" xpath="row1.body:/CRA/Sales/VehicleMakeKey"/>
+              <children name="UniqueKey" outgoingConnections="//@node.1/@nodeData/@connections.1" type="id_String" xpath="row1.body:/CRA/Sales/UniqueKey"/>
+              <children name="SalesDate" outgoingConnections="//@node.1/@nodeData/@connections.2" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.body:/CRA/Sales/SalesDate"/>
+              <children name="Method" outgoingConnections="//@node.1/@nodeData/@connections.3" type="id_String" xpath="row1.body:/CRA/Sales/Method"/>
+              <children name="Acct_Type" outgoingConnections="//@node.1/@nodeData/@connections.4" type="id_String" xpath="row1.body:/CRA/Sales/Acct_Type"/>
+              <children name="Category" outgoingConnections="//@node.1/@nodeData/@connections.5" type="id_String" xpath="row1.body:/CRA/Sales/Category"/>
+              <children name="Status" outgoingConnections="//@node.1/@nodeData/@connections.6" type="id_String" xpath="row1.body:/CRA/Sales/Status"/>
+              <children name="Description" outgoingConnections="//@node.1/@nodeData/@connections.7" type="id_String" xpath="row1.body:/CRA/Sales/Description"/>
+              <children name="Num_Ind" outgoingConnections="//@node.1/@nodeData/@connections.8" type="id_Integer" xpath="row1.body:/CRA/Sales/Num_Ind"/>
+              <children name="Additional_Criteria" outgoingConnections="//@node.1/@nodeData/@connections.9" type="id_String" xpath="row1.body:/CRA/Sales/Additional_Criteria"/>
+              <children name="used_Cars" outgoingConnections="//@node.1/@nodeData/@connections.10" type="id_String" xpath="row1.body:/CRA/Sales/used_Cars"/>
+              <children name="JNL_GL_Acct_Num" outgoingConnections="//@node.1/@nodeData/@connections.11" type="id_String" xpath="row1.body:/CRA/Sales/JNL_GL_Acct_Num"/>
+              <children name="Make" outgoingConnections="//@node.1/@nodeData/@connections.12" type="id_String" xpath="row1.body:/CRA/Sales/Make"/>
+              <children name="AcctFlag" outgoingConnections="//@node.1/@nodeData/@connections.13" type="id_String" xpath="row1.body:/CRA/Sales/AcctFlag"/>
+              <children name="Source_Num" outgoingConnections="//@node.1/@nodeData/@connections.14" type="id_Integer" xpath="row1.body:/CRA/Sales/Source_Num"/>
+              <children name="JNL_Ref_Num" outgoingConnections="//@node.1/@nodeData/@connections.15" type="id_String" xpath="row1.body:/CRA/Sales/JNL_Ref_Num"/>
+              <children name="JNL_GL_Acct_Num_tmp" outgoingConnections="//@node.1/@nodeData/@connections.16" type="id_String" xpath="row1.body:/CRA/Sales/JNL_GL_Acct_Num_tmp"/>
+              <children name="JNL_Sales_Type" outgoingConnections="//@node.1/@nodeData/@connections.17" type="id_String" xpath="row1.body:/CRA/Sales/JNL_Sales_Type"/>
+              <children name="Month" outgoingConnections="//@node.1/@nodeData/@connections.18" type="id_String" xpath="row1.body:/CRA/Sales/Month"/>
+              <children name="JNL_Desc" outgoingConnections="//@node.1/@nodeData/@connections.19" type="id_String" xpath="row1.body:/CRA/Sales/JNL_Desc"/>
+              <children name="Cust_Name" outgoingConnections="//@node.1/@nodeData/@connections.20" type="id_String" xpath="row1.body:/CRA/Sales/Cust_Name"/>
+              <children name="Cust_Loc" outgoingConnections="//@node.1/@nodeData/@connections.21" type="id_String" xpath="row1.body:/CRA/Sales/Cust_Loc"/>
+              <children name="VIN" outgoingConnections="//@node.1/@nodeData/@connections.22" type="id_String" xpath="row1.body:/CRA/Sales/VIN"/>
+              <children name="CRA_StockNo" outgoingConnections="//@node.1/@nodeData/@connections.23" type="id_Integer" xpath="row1.body:/CRA/Sales/CRA_StockNo"/>
+              <children name="UniqueKeyJournal" outgoingConnections="//@node.1/@nodeData/@connections.24" type="id_String" xpath="row1.body:/CRA/Sales/UniqueKeyJournal"/>
+              <children name="ModelNo" outgoingConnections="//@node.1/@nodeData/@connections.25" type="id_String" xpath="row1.body:/CRA/Sales/ModelNo"/>
+              <children name="Delivery_Date" outgoingConnections="//@node.1/@nodeData/@connections.26" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.body:/CRA/Sales/Delivery_Date"/>
+              <children name="Vehicle_Description" outgoingConnections="//@node.1/@nodeData/@connections.27" type="id_String" xpath="row1.body:/CRA/Sales/Vehicle_Description"/>
+              <children name="Vehicle_Sales_Amt" outgoingConnections="//@node.1/@nodeData/@connections.28" type="id_Integer" xpath="row1.body:/CRA/Sales/Vehicle_Sales_Amt"/>
+              <children name="Dealership" outgoingConnections="//@node.1/@nodeData/@connections.29" type="id_String" xpath="row1.body:/CRA/Sales/Dealership"/>
+              <children name="StoreNo" outgoingConnections="//@node.1/@nodeData/@connections.30" type="id_Integer" xpath="row1.body:/CRA/Sales/StoreNo"/>
+              <children name="JNL_Amount" outgoingConnections="//@node.1/@nodeData/@connections.31" type="id_Integer" xpath="row1.body:/CRA/Sales/JNL_Amount"/>
+              <children name="Post_Date" outgoingConnections="//@node.1/@nodeData/@connections.32" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.body:/CRA/Sales/Post_Date"/>
+              <children name="Cust_Num" outgoingConnections="//@node.1/@nodeData/@connections.33" type="id_Integer" xpath="row1.body:/CRA/Sales/Cust_Num"/>
+              <children name="Desc_2" outgoingConnections="//@node.1/@nodeData/@connections.34" type="id_String" xpath="row1.body:/CRA/Sales/Desc_2"/>
+              <children name="GLVehicleSaleAmtNew" outgoingConnections="//@node.1/@nodeData/@connections.35" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleSaleAmtNew"/>
+              <children name="GLVehicleSaleAmtUsed" outgoingConnections="//@node.1/@nodeData/@connections.36" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleSaleAmtUsed"/>
+              <children name="GLVehicleCostAmtNew" outgoingConnections="//@node.1/@nodeData/@connections.37" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleCostAmtNew"/>
+              <children name="GLVehicleCostAmtUsed" outgoingConnections="//@node.1/@nodeData/@connections.38" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleCostAmtUsed"/>
+              <children name="GLFISaleAmtNewRev" outgoingConnections="//@node.1/@nodeData/@connections.39" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtNewRev"/>
+              <children name="GLFISaleAmtUsedRev" outgoingConnections="//@node.1/@nodeData/@connections.40" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtUsedRev"/>
+              <children name="GLFISaleAmtNewGP" outgoingConnections="//@node.1/@nodeData/@connections.41" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtNewGP"/>
+              <children name="GLFISaleAmtUsedGP" outgoingConnections="//@node.1/@nodeData/@connections.42" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtUsedGP"/>
+              <children name="GLFICostAmtNew" outgoingConnections="//@node.1/@nodeData/@connections.43" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFICostAmtNew"/>
+              <children name="GLFICostAmtUsed" outgoingConnections="//@node.1/@nodeData/@connections.44" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFICostAmtUsed"/>
+              <children name="GLVehicleSaleAmtNewRetail" outgoingConnections="//@node.1/@nodeData/@connections.45" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleSaleAmtNewRetail"/>
+              <children name="GLVehicleSaleAmtUsedRetail" outgoingConnections="//@node.1/@nodeData/@connections.46" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleSaleAmtUsedRetail"/>
+              <children name="GLVehicleCostAmtNewRetail" outgoingConnections="//@node.1/@nodeData/@connections.47" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleCostAmtNewRetail"/>
+              <children name="GLVehicleCostAmtUsedRetail" outgoingConnections="//@node.1/@nodeData/@connections.48" type="id_Integer" xpath="row1.body:/CRA/Sales/GLVehicleCostAmtUsedRetail"/>
+              <children name="GLFISaleAmtNewRetailRev" outgoingConnections="//@node.1/@nodeData/@connections.49" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtNewRetailRev"/>
+              <children name="GLFISaleAmtUsedRetailRev" outgoingConnections="//@node.1/@nodeData/@connections.50" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtUsedRetailRev"/>
+              <children name="GLFISaleAmtNewRetailGP" outgoingConnections="//@node.1/@nodeData/@connections.51" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtNewRetailGP"/>
+              <children name="GLFISaleAmtUsedRetailGP" outgoingConnections="//@node.1/@nodeData/@connections.52" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFISaleAmtUsedRetailGP"/>
+              <children name="GLFICostAmtNewRetail" outgoingConnections="//@node.1/@nodeData/@connections.53" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFICostAmtNewRetail"/>
+              <children name="GLFICostAmtUsedRetail" outgoingConnections="//@node.1/@nodeData/@connections.54" type="id_Integer" xpath="row1.body:/CRA/Sales/GLFICostAmtUsedRetail"/>
+              <children name="SalesmanCommission" outgoingConnections="//@node.1/@nodeData/@connections.55" type="id_Integer" xpath="row1.body:/CRA/Sales/SalesmanCommission"/>
+              <children name="FAMCommission" outgoingConnections="//@node.1/@nodeData/@connections.56" type="id_Integer" xpath="row1.body:/CRA/Sales/FAMCommission"/>
+              <children name="StoreCountNew" outgoingConnections="//@node.1/@nodeData/@connections.57" type="id_Integer" xpath="row1.body:/CRA/Sales/StoreCountNew"/>
+              <children name="StoreCountUsed" outgoingConnections="//@node.1/@nodeData/@connections.58" type="id_Integer" xpath="row1.body:/CRA/Sales/StoreCountUsed"/>
+              <children name="ECPCount" outgoingConnections="//@node.1/@nodeData/@connections.59" type="id_Integer" xpath="row1.body:/CRA/Sales/ECPCount"/>
+              <children name="GLSaleAmtNewRev" outgoingConnections="//@node.1/@nodeData/@connections.60" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtNewRev"/>
+              <children name="GLSaleAmtNewGP" outgoingConnections="//@node.1/@nodeData/@connections.61" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtNewGP"/>
+              <children name="GLSaleAmtUsedRev" outgoingConnections="//@node.1/@nodeData/@connections.62" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtUsedRev"/>
+              <children name="GLSaleAmtUsedGP" outgoingConnections="//@node.1/@nodeData/@connections.63" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtUsedGP"/>
+              <children name="GLCostAmtNew" outgoingConnections="//@node.1/@nodeData/@connections.64" type="id_Integer" xpath="row1.body:/CRA/Sales/GLCostAmtNew"/>
+              <children name="GLCostAmtUsed" outgoingConnections="//@node.1/@nodeData/@connections.65" type="id_Integer" xpath="row1.body:/CRA/Sales/GLCostAmtUsed"/>
+              <children name="GLSaleAmtNewRetailRev" outgoingConnections="//@node.1/@nodeData/@connections.66" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtNewRetailRev"/>
+              <children name="GLSaleAmtNewRetailGP" outgoingConnections="//@node.1/@nodeData/@connections.67" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtNewRetailGP"/>
+              <children name="GLSaleAmtUsedRetailGP" outgoingConnections="//@node.1/@nodeData/@connections.68" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtUsedRetailGP"/>
+              <children name="GLSaleAmtUsedRetailRev" outgoingConnections="//@node.1/@nodeData/@connections.69" type="id_Integer" xpath="row1.body:/CRA/Sales/GLSaleAmtUsedRetailRev"/>
+              <children name="GLCostAmtNewRetail" outgoingConnections="//@node.1/@nodeData/@connections.70" type="id_Integer" xpath="row1.body:/CRA/Sales/GLCostAmtNewRetail"/>
+              <children name="GLCostAmtUsedRetail" outgoingConnections="//@node.1/@nodeData/@connections.71" type="id_Integer" xpath="row1.body:/CRA/Sales/GLCostAmtUsedRetail"/>
+              <children name="GLCPOSales" outgoingConnections="//@node.1/@nodeData/@connections.72" type="id_Integer" xpath="row1.body:/CRA/Sales/GLCPOSales"/>
+              <children name="NewUsed" outgoingConnections="//@node.1/@nodeData/@connections.73" type="id_String" xpath="row1.body:/CRA/Sales/NewUsed"/>
+              <children name="F_I_StockNo" outgoingConnections="//@node.1/@nodeData/@connections.74" type="id_Integer" xpath="row1.body:/CRA/Sales/F_I_StockNo"/>
+              <children name="UniqueKeyJournalFI" outgoingConnections="//@node.1/@nodeData/@connections.75" type="id_String" xpath="row1.body:/CRA/Sales/UniqueKeyJournalFI"/>
+              <children name="Branch" outgoingConnections="//@node.1/@nodeData/@connections.76" type="id_String" xpath="row1.body:/CRA/Sales/Branch"/>
+              <children name="MAKE" outgoingConnections="//@node.1/@nodeData/@connections.77" type="id_String" xpath="row1.body:/CRA/Sales/MAKE"/>
+              <children name="CATLINE_EACT" outgoingConnections="//@node.1/@nodeData/@connections.78" type="id_String" xpath="row1.body:/CRA/Sales/CATLINE_EACT"/>
+              <children name="DECS_DV" outgoingConnections="//@node.1/@nodeData/@connections.79" type="id_String" xpath="row1.body:/CRA/Sales/DECS_DV"/>
+              <children name="ModelYear" outgoingConnections="//@node.1/@nodeData/@connections.80" type="id_Integer" xpath="row1.body:/CRA/Sales/ModelYear"/>
+              <children name="SalesType" outgoingConnections="//@node.1/@nodeData/@connections.81" type="id_String" xpath="row1.body:/CRA/Sales/SalesType"/>
+              <children name="DEAL_CATEG" outgoingConnections="//@node.1/@nodeData/@connections.82" type="id_String" xpath="row1.body:/CRA/Sales/DEAL_CATEG"/>
+              <children name="STAT" outgoingConnections="//@node.1/@nodeData/@connections.83" type="id_String" xpath="row1.body:/CRA/Sales/STAT"/>
+              <children name="SalesManName" outgoingConnections="//@node.1/@nodeData/@connections.84" type="id_String" xpath="row1.body:/CRA/Sales/SalesManName"/>
+              <children name="SaleCommission" outgoingConnections="//@node.1/@nodeData/@connections.85" type="id_Float" xpath="row1.body:/CRA/Sales/SaleCommission"/>
+              <children name="SalePrice" outgoingConnections="//@node.1/@nodeData/@connections.86" type="id_Integer" xpath="row1.body:/CRA/Sales/SalePrice"/>
+              <children name="PRICE" outgoingConnections="//@node.1/@nodeData/@connections.87" type="id_Integer" xpath="row1.body:/CRA/Sales/PRICE"/>
+              <children name="SaleDate" outgoingConnections="//@node.1/@nodeData/@connections.88" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.body:/CRA/Sales/SaleDate"/>
+              <children name="LeasingTerm" outgoingConnections="//@node.1/@nodeData/@connections.89" type="id_Integer" xpath="row1.body:/CRA/Sales/LeasingTerm"/>
+              <children name="FICostAMT" outgoingConnections="//@node.1/@nodeData/@connections.90" type="id_Integer" xpath="row1.body:/CRA/Sales/FICostAMT"/>
+              <children name="BankName" outgoingConnections="//@node.1/@nodeData/@connections.91" type="id_String" xpath="row1.body:/CRA/Sales/BankName"/>
+              <children name="SalesProfit" outgoingConnections="//@node.1/@nodeData/@connections.92" type="id_Float" xpath="row1.body:/CRA/Sales/SalesProfit"/>
+              <children name="NetFI" outgoingConnections="//@node.1/@nodeData/@connections.93" type="id_Integer" xpath="row1.body:/CRA/Sales/NetFI"/>
+              <children name="CloserName" outgoingConnections="//@node.1/@nodeData/@connections.94" type="id_String" xpath="row1.body:/CRA/Sales/CloserName"/>
+              <children name="FinanceComm" outgoingConnections="//@node.1/@nodeData/@connections.95" type="id_Integer" xpath="row1.body:/CRA/Sales/FinanceComm"/>
+              <children name="ZipCode" outgoingConnections="//@node.1/@nodeData/@connections.96" type="id_Integer" xpath="row1.body:/CRA/Sales/ZipCode"/>
+              <children name="CustomerGender" outgoingConnections="//@node.1/@nodeData/@connections.97" type="id_String" xpath="row1.body:/CRA/Sales/CustomerGender"/>
+              <children name="CustomerGenderUpdated" outgoingConnections="//@node.1/@nodeData/@connections.98" type="id_String" xpath="row1.body:/CRA/Sales/CustomerGenderUpdated"/>
+              <children name="CustomerAge" outgoingConnections="//@node.1/@nodeData/@connections.99" type="id_Integer" xpath="row1.body:/CRA/Sales/CustomerAge"/>
+              <children name="CLR" outgoingConnections="//@node.1/@nodeData/@connections.100" type="id_String" xpath="row1.body:/CRA/Sales/CLR"/>
+              <children name="BaseColour" outgoingConnections="//@node.1/@nodeData/@connections.101" type="id_String" xpath="row1.body:/CRA/Sales/BaseColour"/>
+              <children name="LeasingCompany" outgoingConnections="//@node.1/@nodeData/@connections.102" type="id_String" xpath="row1.body:/CRA/Sales/LeasingCompany"/>
+              <children name="WCL" outgoingConnections="//@node.1/@nodeData/@connections.103" type="id_Integer" xpath="row1.body:/CRA/Sales/WCL"/>
+              <children name="FinanceFlag" outgoingConnections="//@node.1/@nodeData/@connections.104" type="id_String" xpath="row1.body:/CRA/Sales/FinanceFlag"/>
+              <children name="SalesManNum" outgoingConnections="//@node.1/@nodeData/@connections.105" type="id_String" xpath="row1.body:/CRA/Sales/SalesManNum"/>
+              <children name="BOUNS_AMT" outgoingConnections="//@node.1/@nodeData/@connections.106" type="id_Integer" xpath="row1.body:/CRA/Sales/BOUNS_AMT"/>
+              <children name="PDI" outgoingConnections="//@node.1/@nodeData/@connections.107" type="id_Integer" xpath="row1.body:/CRA/Sales/PDI"/>
+              <children name="AdminFee" outgoingConnections="//@node.1/@nodeData/@connections.108" type="id_Integer" xpath="row1.body:/CRA/Sales/AdminFee"/>
+              <children name="Freight" outgoingConnections="//@node.1/@nodeData/@connections.109" type="id_Float" xpath="row1.body:/CRA/Sales/Freight"/>
+              <children name="AirTax" outgoingConnections="//@node.1/@nodeData/@connections.110" type="id_Integer" xpath="row1.body:/CRA/Sales/AirTax"/>
+              <children name="AccountingCost" outgoingConnections="//@node.1/@nodeData/@connections.111" type="id_Integer" xpath="row1.body:/CRA/Sales/AccountingCost"/>
+              <children name="VehicleCost" outgoingConnections="//@node.1/@nodeData/@connections.112" type="id_Integer" xpath="row1.body:/CRA/Sales/VehicleCost"/>
+              <children name="AftDesc1" outgoingConnections="//@node.1/@nodeData/@connections.113" type="id_String" xpath="row1.body:/CRA/Sales/AftDesc1"/>
+              <children name="AftDesc2" outgoingConnections="//@node.1/@nodeData/@connections.114" type="id_String" xpath="row1.body:/CRA/Sales/AftDesc2"/>
+              <children name="AftDesc3" outgoingConnections="//@node.1/@nodeData/@connections.115" type="id_String" xpath="row1.body:/CRA/Sales/AftDesc3"/>
+              <children name="AftDesc4" outgoingConnections="//@node.1/@nodeData/@connections.116" type="id_String" xpath="row1.body:/CRA/Sales/AftDesc4"/>
+              <children name="AftDesc5" outgoingConnections="//@node.1/@nodeData/@connections.117" type="id_String" xpath="row1.body:/CRA/Sales/AftDesc5"/>
+              <children name="AfterSalesValue" outgoingConnections="//@node.1/@nodeData/@connections.118" type="id_String" xpath="row1.body:/CRA/Sales/AfterSalesValue"/>
+              <children name="AfterSalesCost" outgoingConnections="//@node.1/@nodeData/@connections.119" type="id_String" xpath="row1.body:/CRA/Sales/AfterSalesCost"/>
+              <children name="LastPaymentDate" outgoingConnections="//@node.1/@nodeData/@connections.120" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="row1.body:/CRA/Sales/LastPaymentDate"/>
+              <children name="CNT_CAT" outgoingConnections="//@node.1/@nodeData/@connections.121" type="id_String" xpath="row1.body:/CRA/Sales/CNT_CAT"/>
+              <children name="DealerShowroom" outgoingConnections="//@node.1/@nodeData/@connections.122" type="id_String" xpath="row1.body:/CRA/Sales/DealerShowroom"/>
+              <children name="VIN_NO" outgoingConnections="//@node.1/@nodeData/@connections.123" type="id_String" xpath="row1.body:/CRA/Sales/VIN_NO"/>
+              <children name="CRI_POL_COST" outgoingConnections="//@node.1/@nodeData/@connections.124" type="id_Integer" xpath="row1.body:/CRA/Sales/CRI_POL_COST"/>
+              <children name="LOE_POL_COST" outgoingConnections="//@node.1/@nodeData/@connections.125" type="id_Integer" xpath="row1.body:/CRA/Sales/LOE_POL_COST"/>
+              <children name="POLICY_COST" outgoingConnections="//@node.1/@nodeData/@connections.126" type="id_Integer" xpath="row1.body:/CRA/Sales/POLICY_COST"/>
+              <children name="Latitude" outgoingConnections="//@node.1/@nodeData/@connections.127" type="id_Float" xpath="row1.body:/CRA/Sales/Latitude"/>
+              <children name="Longitude" outgoingConnections="//@node.1/@nodeData/@connections.128" type="id_Double" xpath="row1.body:/CRA/Sales/Longitude"/>
+              <children name="CityZip" outgoingConnections="//@node.1/@nodeData/@connections.129" type="id_Integer" xpath="row1.body:/CRA/Sales/CityZip"/>
+              <children name="ProvinceZip" outgoingConnections="//@node.1/@nodeData/@connections.130" type="id_String" xpath="row1.body:/CRA/Sales/ProvinceZip"/>
+              <children name="BaseColor" outgoingConnections="//@node.1/@nodeData/@connections.131" type="id_String" xpath="row1.body:/CRA/Sales/BaseColor"/>
+              <children name="Weins_Make" outgoingConnections="//@node.1/@nodeData/@connections.132" type="id_String" xpath="row1.body:/CRA/Sales/Weins_Make"/>
+              <children name="Penetration" outgoingConnections="//@node.1/@nodeData/@connections.133" type="id_Float" xpath="row1.body:/CRA/Sales/Penetration"/>
+              <children name="New_Used" outgoingConnections="//@node.1/@nodeData/@connections.134" type="id_String" xpath="row1.body:/CRA/Sales/New_Used"/>
+              <children name="SalesType2" outgoingConnections="//@node.1/@nodeData/@connections.135" type="id_String" xpath="row1.body:/CRA/Sales/SalesType2"/>
+              <children name="LeasingFlag" outgoingConnections="//@node.1/@nodeData/@connections.136" type="id_String" xpath="row1.body:/CRA/Sales/LeasingFlag"/>
+              <children name="LeaseFlag" outgoingConnections="//@node.1/@nodeData/@connections.137" type="id_String" xpath="row1.body:/CRA/Sales/LeaseFlag"/>
+            </children>
+          </children>
+        </nodes>
+        <nodes name="string" type="id_String" xpath="row1/string"/>
+      </inputTrees>
+      <outputTrees name="out1">
+        <nodes expression="[row1.body:/CRA/Sales/VehicleMakeKey]" incomingConnections="//@node.1/@nodeData/@connections.0" name="VehicleMakeKey" type="id_String" xpath="out1/VehicleMakeKey"/>
+        <nodes expression="[row1.body:/CRA/Sales/UniqueKey]" incomingConnections="//@node.1/@nodeData/@connections.1" name="UniqueKey" type="id_String" xpath="out1/UniqueKey"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesDate]" incomingConnections="//@node.1/@nodeData/@connections.2" name="SalesDate" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="out1/SalesDate"/>
+        <nodes expression="[row1.body:/CRA/Sales/Method]" incomingConnections="//@node.1/@nodeData/@connections.3" name="Method" type="id_String" xpath="out1/Method"/>
+        <nodes expression="[row1.body:/CRA/Sales/Acct_Type]" incomingConnections="//@node.1/@nodeData/@connections.4" name="Acct_Type" type="id_String" xpath="out1/Acct_Type"/>
+        <nodes expression="[row1.body:/CRA/Sales/Category]" incomingConnections="//@node.1/@nodeData/@connections.5" name="Category" type="id_String" xpath="out1/Category"/>
+        <nodes expression="[row1.body:/CRA/Sales/Status]" incomingConnections="//@node.1/@nodeData/@connections.6" name="Status" type="id_String" xpath="out1/Status"/>
+        <nodes expression="[row1.body:/CRA/Sales/Description]" incomingConnections="//@node.1/@nodeData/@connections.7" name="Description" type="id_String" xpath="out1/Description"/>
+        <nodes expression="[row1.body:/CRA/Sales/Num_Ind]" incomingConnections="//@node.1/@nodeData/@connections.8" name="Num_Ind" type="id_Integer" xpath="out1/Num_Ind"/>
+        <nodes expression="[row1.body:/CRA/Sales/Additional_Criteria]" incomingConnections="//@node.1/@nodeData/@connections.9" name="Additional_Criteria" type="id_String" xpath="out1/Additional_Criteria"/>
+        <nodes expression="[row1.body:/CRA/Sales/used_Cars]" incomingConnections="//@node.1/@nodeData/@connections.10" name="used_Cars" type="id_String" xpath="out1/used_Cars"/>
+        <nodes expression="[row1.body:/CRA/Sales/JNL_GL_Acct_Num]" incomingConnections="//@node.1/@nodeData/@connections.11" name="JNL_GL_Acct_Num" type="id_String" xpath="out1/JNL_GL_Acct_Num"/>
+        <nodes expression="[row1.body:/CRA/Sales/Make]" incomingConnections="//@node.1/@nodeData/@connections.12" name="Make" type="id_String" xpath="out1/Make"/>
+        <nodes expression="[row1.body:/CRA/Sales/AcctFlag]" incomingConnections="//@node.1/@nodeData/@connections.13" name="AcctFlag" type="id_String" xpath="out1/AcctFlag"/>
+        <nodes expression="[row1.body:/CRA/Sales/Source_Num]" incomingConnections="//@node.1/@nodeData/@connections.14" name="Source_Num" type="id_Integer" xpath="out1/Source_Num"/>
+        <nodes expression="[row1.body:/CRA/Sales/JNL_Ref_Num]" incomingConnections="//@node.1/@nodeData/@connections.15" name="JNL_Ref_Num" type="id_String" xpath="out1/JNL_Ref_Num"/>
+        <nodes expression="[row1.body:/CRA/Sales/JNL_GL_Acct_Num_tmp]" incomingConnections="//@node.1/@nodeData/@connections.16" name="JNL_GL_Acct_Num_tmp" type="id_String" xpath="out1/JNL_GL_Acct_Num_tmp"/>
+        <nodes expression="[row1.body:/CRA/Sales/JNL_Sales_Type]" incomingConnections="//@node.1/@nodeData/@connections.17" name="JNL_Sales_Type" type="id_String" xpath="out1/JNL_Sales_Type"/>
+        <nodes expression="[row1.body:/CRA/Sales/Month]" incomingConnections="//@node.1/@nodeData/@connections.18" name="Month" type="id_String" xpath="out1/Month"/>
+        <nodes expression="[row1.body:/CRA/Sales/JNL_Desc]" incomingConnections="//@node.1/@nodeData/@connections.19" name="JNL_Desc" type="id_String" xpath="out1/JNL_Desc"/>
+        <nodes expression="[row1.body:/CRA/Sales/Cust_Name]" incomingConnections="//@node.1/@nodeData/@connections.20" name="Cust_Name" type="id_String" xpath="out1/Cust_Name"/>
+        <nodes expression="[row1.body:/CRA/Sales/Cust_Loc]" incomingConnections="//@node.1/@nodeData/@connections.21" name="Cust_Loc" type="id_String" xpath="out1/Cust_Loc"/>
+        <nodes expression="[row1.body:/CRA/Sales/VIN]" incomingConnections="//@node.1/@nodeData/@connections.22" name="VIN" type="id_String" xpath="out1/VIN"/>
+        <nodes expression="[row1.body:/CRA/Sales/CRA_StockNo]" incomingConnections="//@node.1/@nodeData/@connections.23" name="CRA_StockNo" type="id_Integer" xpath="out1/CRA_StockNo"/>
+        <nodes expression="[row1.body:/CRA/Sales/UniqueKeyJournal]" incomingConnections="//@node.1/@nodeData/@connections.24" name="UniqueKeyJournal" type="id_String" xpath="out1/UniqueKeyJournal"/>
+        <nodes expression="[row1.body:/CRA/Sales/ModelNo]" incomingConnections="//@node.1/@nodeData/@connections.25" name="ModelNo" type="id_String" xpath="out1/ModelNo"/>
+        <nodes expression="[row1.body:/CRA/Sales/Delivery_Date]" incomingConnections="//@node.1/@nodeData/@connections.26" name="Delivery_Date" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="out1/Delivery_Date"/>
+        <nodes expression="[row1.body:/CRA/Sales/Vehicle_Description]" incomingConnections="//@node.1/@nodeData/@connections.27" name="Vehicle_Description" type="id_String" xpath="out1/Vehicle_Description"/>
+        <nodes expression="[row1.body:/CRA/Sales/Vehicle_Sales_Amt]" incomingConnections="//@node.1/@nodeData/@connections.28" name="Vehicle_Sales_Amt" type="id_Integer" xpath="out1/Vehicle_Sales_Amt"/>
+        <nodes expression="[row1.body:/CRA/Sales/Dealership]" incomingConnections="//@node.1/@nodeData/@connections.29" name="Dealership" type="id_String" xpath="out1/Dealership"/>
+        <nodes expression="[row1.body:/CRA/Sales/StoreNo]" incomingConnections="//@node.1/@nodeData/@connections.30" name="StoreNo" type="id_Integer" xpath="out1/StoreNo"/>
+        <nodes expression="[row1.body:/CRA/Sales/JNL_Amount]" incomingConnections="//@node.1/@nodeData/@connections.31" name="JNL_Amount" type="id_Integer" xpath="out1/JNL_Amount"/>
+        <nodes expression="[row1.body:/CRA/Sales/Post_Date]" incomingConnections="//@node.1/@nodeData/@connections.32" name="Post_Date" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="out1/Post_Date"/>
+        <nodes expression="[row1.body:/CRA/Sales/Cust_Num]" incomingConnections="//@node.1/@nodeData/@connections.33" name="Cust_Num" type="id_Integer" xpath="out1/Cust_Num"/>
+        <nodes expression="[row1.body:/CRA/Sales/Desc_2]" incomingConnections="//@node.1/@nodeData/@connections.34" name="Desc_2" type="id_String" xpath="out1/Desc_2"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleSaleAmtNew]" incomingConnections="//@node.1/@nodeData/@connections.35" name="GLVehicleSaleAmtNew" type="id_Integer" xpath="out1/GLVehicleSaleAmtNew"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleSaleAmtUsed]" incomingConnections="//@node.1/@nodeData/@connections.36" name="GLVehicleSaleAmtUsed" type="id_Integer" xpath="out1/GLVehicleSaleAmtUsed"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleCostAmtNew]" incomingConnections="//@node.1/@nodeData/@connections.37" name="GLVehicleCostAmtNew" type="id_Integer" xpath="out1/GLVehicleCostAmtNew"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleCostAmtUsed]" incomingConnections="//@node.1/@nodeData/@connections.38" name="GLVehicleCostAmtUsed" type="id_Integer" xpath="out1/GLVehicleCostAmtUsed"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtNewRev]" incomingConnections="//@node.1/@nodeData/@connections.39" name="GLFISaleAmtNewRev" type="id_Integer" xpath="out1/GLFISaleAmtNewRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtUsedRev]" incomingConnections="//@node.1/@nodeData/@connections.40" name="GLFISaleAmtUsedRev" type="id_Integer" xpath="out1/GLFISaleAmtUsedRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtNewGP]" incomingConnections="//@node.1/@nodeData/@connections.41" name="GLFISaleAmtNewGP" type="id_Integer" xpath="out1/GLFISaleAmtNewGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtUsedGP]" incomingConnections="//@node.1/@nodeData/@connections.42" name="GLFISaleAmtUsedGP" type="id_Integer" xpath="out1/GLFISaleAmtUsedGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFICostAmtNew]" incomingConnections="//@node.1/@nodeData/@connections.43" name="GLFICostAmtNew" type="id_Integer" xpath="out1/GLFICostAmtNew"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFICostAmtUsed]" incomingConnections="//@node.1/@nodeData/@connections.44" name="GLFICostAmtUsed" type="id_Integer" xpath="out1/GLFICostAmtUsed"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleSaleAmtNewRetail]" incomingConnections="//@node.1/@nodeData/@connections.45" name="GLVehicleSaleAmtNewRetail" type="id_Integer" xpath="out1/GLVehicleSaleAmtNewRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleSaleAmtUsedRetail]" incomingConnections="//@node.1/@nodeData/@connections.46" name="GLVehicleSaleAmtUsedRetail" type="id_Integer" xpath="out1/GLVehicleSaleAmtUsedRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleCostAmtNewRetail]" incomingConnections="//@node.1/@nodeData/@connections.47" name="GLVehicleCostAmtNewRetail" type="id_Integer" xpath="out1/GLVehicleCostAmtNewRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLVehicleCostAmtUsedRetail]" incomingConnections="//@node.1/@nodeData/@connections.48" name="GLVehicleCostAmtUsedRetail" type="id_Integer" xpath="out1/GLVehicleCostAmtUsedRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtNewRetailRev]" incomingConnections="//@node.1/@nodeData/@connections.49" name="GLFISaleAmtNewRetailRev" type="id_Integer" xpath="out1/GLFISaleAmtNewRetailRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtUsedRetailRev]" incomingConnections="//@node.1/@nodeData/@connections.50" name="GLFISaleAmtUsedRetailRev" type="id_Integer" xpath="out1/GLFISaleAmtUsedRetailRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtNewRetailGP]" incomingConnections="//@node.1/@nodeData/@connections.51" name="GLFISaleAmtNewRetailGP" type="id_Integer" xpath="out1/GLFISaleAmtNewRetailGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFISaleAmtUsedRetailGP]" incomingConnections="//@node.1/@nodeData/@connections.52" name="GLFISaleAmtUsedRetailGP" type="id_Integer" xpath="out1/GLFISaleAmtUsedRetailGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFICostAmtNewRetail]" incomingConnections="//@node.1/@nodeData/@connections.53" name="GLFICostAmtNewRetail" type="id_Integer" xpath="out1/GLFICostAmtNewRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLFICostAmtUsedRetail]" incomingConnections="//@node.1/@nodeData/@connections.54" name="GLFICostAmtUsedRetail" type="id_Integer" xpath="out1/GLFICostAmtUsedRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesmanCommission]" incomingConnections="//@node.1/@nodeData/@connections.55" name="SalesmanCommission" type="id_Integer" xpath="out1/SalesmanCommission"/>
+        <nodes expression="[row1.body:/CRA/Sales/FAMCommission]" incomingConnections="//@node.1/@nodeData/@connections.56" name="FAMCommission" type="id_Integer" xpath="out1/FAMCommission"/>
+        <nodes expression="[row1.body:/CRA/Sales/StoreCountNew]" incomingConnections="//@node.1/@nodeData/@connections.57" name="StoreCountNew" type="id_Integer" xpath="out1/StoreCountNew"/>
+        <nodes expression="[row1.body:/CRA/Sales/StoreCountUsed]" incomingConnections="//@node.1/@nodeData/@connections.58" name="StoreCountUsed" type="id_Integer" xpath="out1/StoreCountUsed"/>
+        <nodes expression="[row1.body:/CRA/Sales/ECPCount]" incomingConnections="//@node.1/@nodeData/@connections.59" name="ECPCount" type="id_Integer" xpath="out1/ECPCount"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtNewRev]" incomingConnections="//@node.1/@nodeData/@connections.60" name="GLSaleAmtNewRev" type="id_Integer" xpath="out1/GLSaleAmtNewRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtNewGP]" incomingConnections="//@node.1/@nodeData/@connections.61" name="GLSaleAmtNewGP" type="id_Integer" xpath="out1/GLSaleAmtNewGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtUsedRev]" incomingConnections="//@node.1/@nodeData/@connections.62" name="GLSaleAmtUsedRev" type="id_Integer" xpath="out1/GLSaleAmtUsedRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtUsedGP]" incomingConnections="//@node.1/@nodeData/@connections.63" name="GLSaleAmtUsedGP" type="id_Integer" xpath="out1/GLSaleAmtUsedGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLCostAmtNew]" incomingConnections="//@node.1/@nodeData/@connections.64" name="GLCostAmtNew" type="id_Integer" xpath="out1/GLCostAmtNew"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLCostAmtUsed]" incomingConnections="//@node.1/@nodeData/@connections.65" name="GLCostAmtUsed" type="id_Integer" xpath="out1/GLCostAmtUsed"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtNewRetailRev]" incomingConnections="//@node.1/@nodeData/@connections.66" name="GLSaleAmtNewRetailRev" type="id_Integer" xpath="out1/GLSaleAmtNewRetailRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtNewRetailGP]" incomingConnections="//@node.1/@nodeData/@connections.67" name="GLSaleAmtNewRetailGP" type="id_Integer" xpath="out1/GLSaleAmtNewRetailGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtUsedRetailGP]" incomingConnections="//@node.1/@nodeData/@connections.68" name="GLSaleAmtUsedRetailGP" type="id_Integer" xpath="out1/GLSaleAmtUsedRetailGP"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLSaleAmtUsedRetailRev]" incomingConnections="//@node.1/@nodeData/@connections.69" name="GLSaleAmtUsedRetailRev" type="id_Integer" xpath="out1/GLSaleAmtUsedRetailRev"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLCostAmtNewRetail]" incomingConnections="//@node.1/@nodeData/@connections.70" name="GLCostAmtNewRetail" type="id_Integer" xpath="out1/GLCostAmtNewRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLCostAmtUsedRetail]" incomingConnections="//@node.1/@nodeData/@connections.71" name="GLCostAmtUsedRetail" type="id_Integer" xpath="out1/GLCostAmtUsedRetail"/>
+        <nodes expression="[row1.body:/CRA/Sales/GLCPOSales]" incomingConnections="//@node.1/@nodeData/@connections.72" name="GLCPOSales" type="id_Integer" xpath="out1/GLCPOSales"/>
+        <nodes expression="[row1.body:/CRA/Sales/NewUsed]" incomingConnections="//@node.1/@nodeData/@connections.73" name="NewUsed" type="id_String" xpath="out1/NewUsed"/>
+        <nodes expression="[row1.body:/CRA/Sales/F_I_StockNo]" incomingConnections="//@node.1/@nodeData/@connections.74" name="F_I_StockNo" type="id_Integer" xpath="out1/F_I_StockNo"/>
+        <nodes expression="[row1.body:/CRA/Sales/UniqueKeyJournalFI]" incomingConnections="//@node.1/@nodeData/@connections.75" name="UniqueKeyJournalFI" type="id_String" xpath="out1/UniqueKeyJournalFI"/>
+        <nodes expression="[row1.body:/CRA/Sales/Branch]" incomingConnections="//@node.1/@nodeData/@connections.76" name="Branch" type="id_String" xpath="out1/Branch"/>
+        <nodes expression="[row1.body:/CRA/Sales/MAKE]" incomingConnections="//@node.1/@nodeData/@connections.77" name="MAKE_1" type="id_String" xpath="out1/MAKE_1"/>
+        <nodes expression="[row1.body:/CRA/Sales/CATLINE_EACT]" incomingConnections="//@node.1/@nodeData/@connections.78" name="CATLINE_EACT" type="id_String" xpath="out1/CATLINE_EACT"/>
+        <nodes expression="[row1.body:/CRA/Sales/DECS_DV]" incomingConnections="//@node.1/@nodeData/@connections.79" name="DECS_DV" type="id_String" xpath="out1/DECS_DV"/>
+        <nodes expression="[row1.body:/CRA/Sales/ModelYear]" incomingConnections="//@node.1/@nodeData/@connections.80" name="ModelYear" type="id_Integer" xpath="out1/ModelYear"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesType]" incomingConnections="//@node.1/@nodeData/@connections.81" name="SalesType" type="id_String" xpath="out1/SalesType"/>
+        <nodes expression="[row1.body:/CRA/Sales/DEAL_CATEG]" incomingConnections="//@node.1/@nodeData/@connections.82" name="DEAL_CATEG" type="id_String" xpath="out1/DEAL_CATEG"/>
+        <nodes expression="[row1.body:/CRA/Sales/STAT]" incomingConnections="//@node.1/@nodeData/@connections.83" name="STAT" type="id_String" xpath="out1/STAT"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesManName]" incomingConnections="//@node.1/@nodeData/@connections.84" name="SalesManName" type="id_String" xpath="out1/SalesManName"/>
+        <nodes expression="[row1.body:/CRA/Sales/SaleCommission]" incomingConnections="//@node.1/@nodeData/@connections.85" name="SaleCommission" type="id_Float" xpath="out1/SaleCommission"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalePrice]" incomingConnections="//@node.1/@nodeData/@connections.86" name="SalePrice" type="id_Integer" xpath="out1/SalePrice"/>
+        <nodes expression="[row1.body:/CRA/Sales/PRICE]" incomingConnections="//@node.1/@nodeData/@connections.87" name="PRICE" type="id_Integer" xpath="out1/PRICE"/>
+        <nodes expression="[row1.body:/CRA/Sales/SaleDate]" incomingConnections="//@node.1/@nodeData/@connections.88" name="SaleDate" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="out1/SaleDate"/>
+        <nodes expression="[row1.body:/CRA/Sales/LeasingTerm]" incomingConnections="//@node.1/@nodeData/@connections.89" name="LeasingTerm" type="id_Integer" xpath="out1/LeasingTerm"/>
+        <nodes expression="[row1.body:/CRA/Sales/FICostAMT]" incomingConnections="//@node.1/@nodeData/@connections.90" name="FICostAMT" type="id_Integer" xpath="out1/FICostAMT"/>
+        <nodes expression="[row1.body:/CRA/Sales/BankName]" incomingConnections="//@node.1/@nodeData/@connections.91" name="BankName" type="id_String" xpath="out1/BankName"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesProfit]" incomingConnections="//@node.1/@nodeData/@connections.92" name="SalesProfit" type="id_Float" xpath="out1/SalesProfit"/>
+        <nodes expression="[row1.body:/CRA/Sales/NetFI]" incomingConnections="//@node.1/@nodeData/@connections.93" name="NetFI" type="id_Integer" xpath="out1/NetFI"/>
+        <nodes expression="[row1.body:/CRA/Sales/CloserName]" incomingConnections="//@node.1/@nodeData/@connections.94" name="CloserName" type="id_String" xpath="out1/CloserName"/>
+        <nodes expression="[row1.body:/CRA/Sales/FinanceComm]" incomingConnections="//@node.1/@nodeData/@connections.95" name="FinanceComm" type="id_Integer" xpath="out1/FinanceComm"/>
+        <nodes expression="[row1.body:/CRA/Sales/ZipCode]" incomingConnections="//@node.1/@nodeData/@connections.96" name="ZipCode" type="id_Integer" xpath="out1/ZipCode"/>
+        <nodes expression="[row1.body:/CRA/Sales/CustomerGender]" incomingConnections="//@node.1/@nodeData/@connections.97" name="CustomerGender" type="id_String" xpath="out1/CustomerGender"/>
+        <nodes expression="[row1.body:/CRA/Sales/CustomerGenderUpdated]" incomingConnections="//@node.1/@nodeData/@connections.98" name="CustomerGenderUpdated" type="id_String" xpath="out1/CustomerGenderUpdated"/>
+        <nodes expression="[row1.body:/CRA/Sales/CustomerAge]" incomingConnections="//@node.1/@nodeData/@connections.99" name="CustomerAge" type="id_Integer" xpath="out1/CustomerAge"/>
+        <nodes expression="[row1.body:/CRA/Sales/CLR]" incomingConnections="//@node.1/@nodeData/@connections.100" name="CLR" type="id_String" xpath="out1/CLR"/>
+        <nodes expression="[row1.body:/CRA/Sales/BaseColour]" incomingConnections="//@node.1/@nodeData/@connections.101" name="BaseColour" type="id_String" xpath="out1/BaseColour"/>
+        <nodes expression="[row1.body:/CRA/Sales/LeasingCompany]" incomingConnections="//@node.1/@nodeData/@connections.102" name="LeasingCompany" type="id_String" xpath="out1/LeasingCompany"/>
+        <nodes expression="[row1.body:/CRA/Sales/WCL]" incomingConnections="//@node.1/@nodeData/@connections.103" name="WCL" type="id_Integer" xpath="out1/WCL"/>
+        <nodes expression="[row1.body:/CRA/Sales/FinanceFlag]" incomingConnections="//@node.1/@nodeData/@connections.104" name="FinanceFlag" type="id_String" xpath="out1/FinanceFlag"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesManNum]" incomingConnections="//@node.1/@nodeData/@connections.105" name="SalesManNum" type="id_String" xpath="out1/SalesManNum"/>
+        <nodes expression="[row1.body:/CRA/Sales/BOUNS_AMT]" incomingConnections="//@node.1/@nodeData/@connections.106" name="BOUNS_AMT" type="id_Integer" xpath="out1/BOUNS_AMT"/>
+        <nodes expression="[row1.body:/CRA/Sales/PDI]" incomingConnections="//@node.1/@nodeData/@connections.107" name="PDI" type="id_Integer" xpath="out1/PDI"/>
+        <nodes expression="[row1.body:/CRA/Sales/AdminFee]" incomingConnections="//@node.1/@nodeData/@connections.108" name="AdminFee" type="id_Integer" xpath="out1/AdminFee"/>
+        <nodes expression="[row1.body:/CRA/Sales/Freight]" incomingConnections="//@node.1/@nodeData/@connections.109" name="Freight" type="id_Float" xpath="out1/Freight"/>
+        <nodes expression="[row1.body:/CRA/Sales/AirTax]" incomingConnections="//@node.1/@nodeData/@connections.110" name="AirTax" type="id_Integer" xpath="out1/AirTax"/>
+        <nodes expression="[row1.body:/CRA/Sales/AccountingCost]" incomingConnections="//@node.1/@nodeData/@connections.111" name="AccountingCost" type="id_Integer" xpath="out1/AccountingCost"/>
+        <nodes expression="[row1.body:/CRA/Sales/VehicleCost]" incomingConnections="//@node.1/@nodeData/@connections.112" name="VehicleCost" type="id_Integer" xpath="out1/VehicleCost"/>
+        <nodes expression="[row1.body:/CRA/Sales/AftDesc1]" incomingConnections="//@node.1/@nodeData/@connections.113" name="AftDesc1" type="id_String" xpath="out1/AftDesc1"/>
+        <nodes expression="[row1.body:/CRA/Sales/AftDesc2]" incomingConnections="//@node.1/@nodeData/@connections.114" name="AftDesc2" type="id_String" xpath="out1/AftDesc2"/>
+        <nodes expression="[row1.body:/CRA/Sales/AftDesc3]" incomingConnections="//@node.1/@nodeData/@connections.115" name="AftDesc3" type="id_String" xpath="out1/AftDesc3"/>
+        <nodes expression="[row1.body:/CRA/Sales/AftDesc4]" incomingConnections="//@node.1/@nodeData/@connections.116" name="AftDesc4" type="id_String" xpath="out1/AftDesc4"/>
+        <nodes expression="[row1.body:/CRA/Sales/AftDesc5]" incomingConnections="//@node.1/@nodeData/@connections.117" name="AftDesc5" type="id_String" xpath="out1/AftDesc5"/>
+        <nodes expression="[row1.body:/CRA/Sales/AfterSalesValue]" incomingConnections="//@node.1/@nodeData/@connections.118" name="AfterSalesValue" type="id_String" xpath="out1/AfterSalesValue"/>
+        <nodes expression="[row1.body:/CRA/Sales/AfterSalesCost]" incomingConnections="//@node.1/@nodeData/@connections.119" name="AfterSalesCost" type="id_String" xpath="out1/AfterSalesCost"/>
+        <nodes expression="[row1.body:/CRA/Sales/LastPaymentDate]" incomingConnections="//@node.1/@nodeData/@connections.120" name="LastPaymentDate" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="out1/LastPaymentDate"/>
+        <nodes expression="[row1.body:/CRA/Sales/CNT_CAT]" incomingConnections="//@node.1/@nodeData/@connections.121" name="CNT_CAT" type="id_String" xpath="out1/CNT_CAT"/>
+        <nodes expression="[row1.body:/CRA/Sales/DealerShowroom]" incomingConnections="//@node.1/@nodeData/@connections.122" name="DealerShowroom" type="id_String" xpath="out1/DealerShowroom"/>
+        <nodes expression="[row1.body:/CRA/Sales/VIN_NO]" incomingConnections="//@node.1/@nodeData/@connections.123" name="VIN_NO" type="id_String" xpath="out1/VIN_NO"/>
+        <nodes expression="[row1.body:/CRA/Sales/CRI_POL_COST]" incomingConnections="//@node.1/@nodeData/@connections.124" name="CRI_POL_COST" type="id_Integer" xpath="out1/CRI_POL_COST"/>
+        <nodes expression="[row1.body:/CRA/Sales/LOE_POL_COST]" incomingConnections="//@node.1/@nodeData/@connections.125" name="LOE_POL_COST" type="id_Integer" xpath="out1/LOE_POL_COST"/>
+        <nodes expression="[row1.body:/CRA/Sales/POLICY_COST]" incomingConnections="//@node.1/@nodeData/@connections.126" name="POLICY_COST" type="id_Integer" xpath="out1/POLICY_COST"/>
+        <nodes expression="[row1.body:/CRA/Sales/Latitude]" incomingConnections="//@node.1/@nodeData/@connections.127" name="Latitude" type="id_Float" xpath="out1/Latitude"/>
+        <nodes expression="[row1.body:/CRA/Sales/Longitude]" incomingConnections="//@node.1/@nodeData/@connections.128" name="Longitude" type="id_Double" xpath="out1/Longitude"/>
+        <nodes expression="[row1.body:/CRA/Sales/CityZip]" incomingConnections="//@node.1/@nodeData/@connections.129" name="CityZip" type="id_Integer" xpath="out1/CityZip"/>
+        <nodes expression="[row1.body:/CRA/Sales/ProvinceZip]" incomingConnections="//@node.1/@nodeData/@connections.130" name="ProvinceZip" type="id_String" xpath="out1/ProvinceZip"/>
+        <nodes expression="[row1.body:/CRA/Sales/BaseColor]" incomingConnections="//@node.1/@nodeData/@connections.131" name="BaseColor" type="id_String" xpath="out1/BaseColor"/>
+        <nodes expression="[row1.body:/CRA/Sales/Weins_Make]" incomingConnections="//@node.1/@nodeData/@connections.132" name="Weins_Make" type="id_String" xpath="out1/Weins_Make"/>
+        <nodes expression="[row1.body:/CRA/Sales/Penetration]" incomingConnections="//@node.1/@nodeData/@connections.133" name="Penetration" type="id_Float" xpath="out1/Penetration"/>
+        <nodes expression="[row1.body:/CRA/Sales/New_Used]" incomingConnections="//@node.1/@nodeData/@connections.134" name="New_Used" type="id_String" xpath="out1/New_Used"/>
+        <nodes expression="[row1.body:/CRA/Sales/SalesType2]" incomingConnections="//@node.1/@nodeData/@connections.135" name="SalesType2" type="id_String" xpath="out1/SalesType2"/>
+        <nodes expression="[row1.body:/CRA/Sales/LeasingFlag]" incomingConnections="//@node.1/@nodeData/@connections.136" name="LeasingFlag" type="id_String" xpath="out1/LeasingFlag"/>
+        <nodes expression="[row1.body:/CRA/Sales/LeaseFlag]" incomingConnections="//@node.1/@nodeData/@connections.137" name="LeaseFlag" type="id_String" xpath="out1/LeaseFlag"/>
+      </outputTrees>
+      <varTables minimized="true" name="Var"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.2" target="//@node.1/@nodeData/@outputTrees.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.3" target="//@node.1/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.4" target="//@node.1/@nodeData/@outputTrees.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.5" target="//@node.1/@nodeData/@outputTrees.0/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.6" target="//@node.1/@nodeData/@outputTrees.0/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.7" target="//@node.1/@nodeData/@outputTrees.0/@nodes.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.8" target="//@node.1/@nodeData/@outputTrees.0/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.9" target="//@node.1/@nodeData/@outputTrees.0/@nodes.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.10" target="//@node.1/@nodeData/@outputTrees.0/@nodes.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.11" target="//@node.1/@nodeData/@outputTrees.0/@nodes.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.12" target="//@node.1/@nodeData/@outputTrees.0/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.13" target="//@node.1/@nodeData/@outputTrees.0/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.14" target="//@node.1/@nodeData/@outputTrees.0/@nodes.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.15" target="//@node.1/@nodeData/@outputTrees.0/@nodes.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.16" target="//@node.1/@nodeData/@outputTrees.0/@nodes.16" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.17" target="//@node.1/@nodeData/@outputTrees.0/@nodes.17" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.18" target="//@node.1/@nodeData/@outputTrees.0/@nodes.18" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.19" target="//@node.1/@nodeData/@outputTrees.0/@nodes.19" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.20" target="//@node.1/@nodeData/@outputTrees.0/@nodes.20" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.21" target="//@node.1/@nodeData/@outputTrees.0/@nodes.21" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.22" target="//@node.1/@nodeData/@outputTrees.0/@nodes.22" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.23" target="//@node.1/@nodeData/@outputTrees.0/@nodes.23" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.24" target="//@node.1/@nodeData/@outputTrees.0/@nodes.24" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.25" target="//@node.1/@nodeData/@outputTrees.0/@nodes.25" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.26" target="//@node.1/@nodeData/@outputTrees.0/@nodes.26" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.27" target="//@node.1/@nodeData/@outputTrees.0/@nodes.27" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.28" target="//@node.1/@nodeData/@outputTrees.0/@nodes.28" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.29" target="//@node.1/@nodeData/@outputTrees.0/@nodes.29" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.30" target="//@node.1/@nodeData/@outputTrees.0/@nodes.30" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.31" target="//@node.1/@nodeData/@outputTrees.0/@nodes.31" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.32" target="//@node.1/@nodeData/@outputTrees.0/@nodes.32" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.33" target="//@node.1/@nodeData/@outputTrees.0/@nodes.33" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.34" target="//@node.1/@nodeData/@outputTrees.0/@nodes.34" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.35" target="//@node.1/@nodeData/@outputTrees.0/@nodes.35" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.36" target="//@node.1/@nodeData/@outputTrees.0/@nodes.36" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.37" target="//@node.1/@nodeData/@outputTrees.0/@nodes.37" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.38" target="//@node.1/@nodeData/@outputTrees.0/@nodes.38" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.39" target="//@node.1/@nodeData/@outputTrees.0/@nodes.39" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.40" target="//@node.1/@nodeData/@outputTrees.0/@nodes.40" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.41" target="//@node.1/@nodeData/@outputTrees.0/@nodes.41" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.42" target="//@node.1/@nodeData/@outputTrees.0/@nodes.42" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.43" target="//@node.1/@nodeData/@outputTrees.0/@nodes.43" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.44" target="//@node.1/@nodeData/@outputTrees.0/@nodes.44" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.45" target="//@node.1/@nodeData/@outputTrees.0/@nodes.45" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.46" target="//@node.1/@nodeData/@outputTrees.0/@nodes.46" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.47" target="//@node.1/@nodeData/@outputTrees.0/@nodes.47" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.48" target="//@node.1/@nodeData/@outputTrees.0/@nodes.48" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.49" target="//@node.1/@nodeData/@outputTrees.0/@nodes.49" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.50" target="//@node.1/@nodeData/@outputTrees.0/@nodes.50" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.51" target="//@node.1/@nodeData/@outputTrees.0/@nodes.51" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.52" target="//@node.1/@nodeData/@outputTrees.0/@nodes.52" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.53" target="//@node.1/@nodeData/@outputTrees.0/@nodes.53" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.54" target="//@node.1/@nodeData/@outputTrees.0/@nodes.54" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.55" target="//@node.1/@nodeData/@outputTrees.0/@nodes.55" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.56" target="//@node.1/@nodeData/@outputTrees.0/@nodes.56" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.57" target="//@node.1/@nodeData/@outputTrees.0/@nodes.57" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.58" target="//@node.1/@nodeData/@outputTrees.0/@nodes.58" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.59" target="//@node.1/@nodeData/@outputTrees.0/@nodes.59" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.60" target="//@node.1/@nodeData/@outputTrees.0/@nodes.60" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.61" target="//@node.1/@nodeData/@outputTrees.0/@nodes.61" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.62" target="//@node.1/@nodeData/@outputTrees.0/@nodes.62" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.63" target="//@node.1/@nodeData/@outputTrees.0/@nodes.63" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.64" target="//@node.1/@nodeData/@outputTrees.0/@nodes.64" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.65" target="//@node.1/@nodeData/@outputTrees.0/@nodes.65" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.66" target="//@node.1/@nodeData/@outputTrees.0/@nodes.66" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.67" target="//@node.1/@nodeData/@outputTrees.0/@nodes.67" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.68" target="//@node.1/@nodeData/@outputTrees.0/@nodes.68" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.69" target="//@node.1/@nodeData/@outputTrees.0/@nodes.69" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.70" target="//@node.1/@nodeData/@outputTrees.0/@nodes.70" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.71" target="//@node.1/@nodeData/@outputTrees.0/@nodes.71" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.72" target="//@node.1/@nodeData/@outputTrees.0/@nodes.72" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.73" target="//@node.1/@nodeData/@outputTrees.0/@nodes.73" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.74" target="//@node.1/@nodeData/@outputTrees.0/@nodes.74" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.75" target="//@node.1/@nodeData/@outputTrees.0/@nodes.75" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.76" target="//@node.1/@nodeData/@outputTrees.0/@nodes.76" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.77" target="//@node.1/@nodeData/@outputTrees.0/@nodes.77" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.78" target="//@node.1/@nodeData/@outputTrees.0/@nodes.78" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.79" target="//@node.1/@nodeData/@outputTrees.0/@nodes.79" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.80" target="//@node.1/@nodeData/@outputTrees.0/@nodes.80" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.81" target="//@node.1/@nodeData/@outputTrees.0/@nodes.81" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.82" target="//@node.1/@nodeData/@outputTrees.0/@nodes.82" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.83" target="//@node.1/@nodeData/@outputTrees.0/@nodes.83" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.84" target="//@node.1/@nodeData/@outputTrees.0/@nodes.84" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.85" target="//@node.1/@nodeData/@outputTrees.0/@nodes.85" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.86" target="//@node.1/@nodeData/@outputTrees.0/@nodes.86" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.87" target="//@node.1/@nodeData/@outputTrees.0/@nodes.87" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.88" target="//@node.1/@nodeData/@outputTrees.0/@nodes.88" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.89" target="//@node.1/@nodeData/@outputTrees.0/@nodes.89" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.90" target="//@node.1/@nodeData/@outputTrees.0/@nodes.90" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.91" target="//@node.1/@nodeData/@outputTrees.0/@nodes.91" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.92" target="//@node.1/@nodeData/@outputTrees.0/@nodes.92" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.93" target="//@node.1/@nodeData/@outputTrees.0/@nodes.93" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.94" target="//@node.1/@nodeData/@outputTrees.0/@nodes.94" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.95" target="//@node.1/@nodeData/@outputTrees.0/@nodes.95" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.96" target="//@node.1/@nodeData/@outputTrees.0/@nodes.96" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.97" target="//@node.1/@nodeData/@outputTrees.0/@nodes.97" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.98" target="//@node.1/@nodeData/@outputTrees.0/@nodes.98" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.99" target="//@node.1/@nodeData/@outputTrees.0/@nodes.99" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.100" target="//@node.1/@nodeData/@outputTrees.0/@nodes.100" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.101" target="//@node.1/@nodeData/@outputTrees.0/@nodes.101" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.102" target="//@node.1/@nodeData/@outputTrees.0/@nodes.102" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.103" target="//@node.1/@nodeData/@outputTrees.0/@nodes.103" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.104" target="//@node.1/@nodeData/@outputTrees.0/@nodes.104" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.105" target="//@node.1/@nodeData/@outputTrees.0/@nodes.105" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.106" target="//@node.1/@nodeData/@outputTrees.0/@nodes.106" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.107" target="//@node.1/@nodeData/@outputTrees.0/@nodes.107" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.108" target="//@node.1/@nodeData/@outputTrees.0/@nodes.108" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.109" target="//@node.1/@nodeData/@outputTrees.0/@nodes.109" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.110" target="//@node.1/@nodeData/@outputTrees.0/@nodes.110" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.111" target="//@node.1/@nodeData/@outputTrees.0/@nodes.111" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.112" target="//@node.1/@nodeData/@outputTrees.0/@nodes.112" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.113" target="//@node.1/@nodeData/@outputTrees.0/@nodes.113" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.114" target="//@node.1/@nodeData/@outputTrees.0/@nodes.114" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.115" target="//@node.1/@nodeData/@outputTrees.0/@nodes.115" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.116" target="//@node.1/@nodeData/@outputTrees.0/@nodes.116" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.117" target="//@node.1/@nodeData/@outputTrees.0/@nodes.117" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.118" target="//@node.1/@nodeData/@outputTrees.0/@nodes.118" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.119" target="//@node.1/@nodeData/@outputTrees.0/@nodes.119" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.120" target="//@node.1/@nodeData/@outputTrees.0/@nodes.120" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.121" target="//@node.1/@nodeData/@outputTrees.0/@nodes.121" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.122" target="//@node.1/@nodeData/@outputTrees.0/@nodes.122" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.123" target="//@node.1/@nodeData/@outputTrees.0/@nodes.123" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.124" target="//@node.1/@nodeData/@outputTrees.0/@nodes.124" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.125" target="//@node.1/@nodeData/@outputTrees.0/@nodes.125" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.126" target="//@node.1/@nodeData/@outputTrees.0/@nodes.126" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.127" target="//@node.1/@nodeData/@outputTrees.0/@nodes.127" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.128" target="//@node.1/@nodeData/@outputTrees.0/@nodes.128" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.129" target="//@node.1/@nodeData/@outputTrees.0/@nodes.129" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.130" target="//@node.1/@nodeData/@outputTrees.0/@nodes.130" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.131" target="//@node.1/@nodeData/@outputTrees.0/@nodes.131" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.132" target="//@node.1/@nodeData/@outputTrees.0/@nodes.132" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.133" target="//@node.1/@nodeData/@outputTrees.0/@nodes.133" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.134" target="//@node.1/@nodeData/@outputTrees.0/@nodes.134" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.135" target="//@node.1/@nodeData/@outputTrees.0/@nodes.135" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.136" target="//@node.1/@nodeData/@outputTrees.0/@nodes.136" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.137" target="//@node.1/@nodeData/@outputTrees.0/@nodes.137" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="VehicleMakeKey"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UniqueKey"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesDate"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Method"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Acct_Type"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Category"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Status"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Description"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Num_Ind"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Additional_Criteria"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="used_Cars"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JNL_GL_Acct_Num"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Make"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AcctFlag"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Source_Num"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JNL_Ref_Num"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JNL_GL_Acct_Num_tmp"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JNL_Sales_Type"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Month"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JNL_Desc"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Cust_Name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Cust_Loc"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VIN"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRA_StockNo"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UniqueKeyJournal"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ModelNo"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Delivery_Date"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Vehicle_Description"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Vehicle_Sales_Amt"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Dealership"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreNo"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JNL_Amount"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Post_Date"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Cust_Num"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Desc_2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleSaleAmtNew"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleSaleAmtUsed"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleCostAmtNew"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleCostAmtUsed"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtNewRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtUsedRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtNewGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtUsedGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFICostAmtNew"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFICostAmtUsed"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleSaleAmtNewRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleSaleAmtUsedRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleCostAmtNewRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVehicleCostAmtUsedRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtNewRetailRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtUsedRetailRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtNewRetailGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFISaleAmtUsedRetailGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFICostAmtNewRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLFICostAmtUsedRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesmanCommission"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FAMCommission"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreCountNew"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreCountUsed"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ECPCount"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtNewRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtNewGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtUsedRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtUsedGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLCostAmtNew"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLCostAmtUsed"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtNewRetailRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtNewRetailGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtUsedRetailGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLSaleAmtUsedRetailRev"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLCostAmtNewRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLCostAmtUsedRetail"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLCPOSales"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NewUsed"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="F_I_StockNo"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UniqueKeyJournalFI"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Branch"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAKE_1"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CATLINE_EACT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DECS_DV"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ModelYear"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesType"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DEAL_CATEG"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STAT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesManName"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SaleCommission"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalePrice"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRICE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SaleDate"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LeasingTerm"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FICostAMT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BankName"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesProfit"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NetFI"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CloserName"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FinanceComm"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ZipCode"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerGender"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerGenderUpdated"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerAge"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BaseColour"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LeasingCompany"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WCL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FinanceFlag"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesManNum"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BOUNS_AMT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PDI"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdminFee"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Freight"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AirTax"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AccountingCost"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VehicleCost"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AftDesc1"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AftDesc2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AftDesc3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AftDesc4"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AftDesc5"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AfterSalesValue"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AfterSalesCost"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastPaymentDate"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CNT_CAT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DealerShowroom"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VIN_NO"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRI_POL_COST"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOE_POL_COST"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POLICY_COST"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Latitude"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Longitude"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CityZip"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProvinceZip"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BaseColor"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Weins_Make"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Penetration"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="New_Used"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesType2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LeasingFlag"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LeaseFlag"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="out1" name="tLogRow_1">
+      <column comment="" key="false" length="-1" name="VehicleMakeKey" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UniqueKey" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Method" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Acct_Type" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Category" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Status" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Description" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Num_Ind" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Additional_Criteria" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="used_Cars" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_GL_Acct_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Make" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AcctFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Source_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_Ref_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_GL_Acct_Num_tmp" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_Sales_Type" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Month" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JNL_Desc" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Cust_Name" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Cust_Loc" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VIN" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CRA_StockNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UniqueKeyJournal" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ModelNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Delivery_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Vehicle_Description" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Vehicle_Sales_Amt" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Dealership" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="StoreNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="JNL_Amount" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Post_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Cust_Num" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Desc_2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleSaleAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLVehicleCostAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtNewRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFISaleAmtUsedRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLFICostAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SalesmanCommission" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FAMCommission" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="StoreCountNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="StoreCountUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ECPCount" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtNew" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtNewRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedRetailGP" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLSaleAmtUsedRetailRev" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtNewRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCostAmtUsedRetail" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="GLCPOSales" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="NewUsed" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="F_I_StockNo" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UniqueKeyJournalFI" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Branch" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MAKE_1" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CATLINE_EACT" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DECS_DV" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ModelYear" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesType" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DEAL_CATEG" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="STAT" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesManName" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SaleCommission" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SalePrice" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="PRICE" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SaleDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="LeasingTerm" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FICostAMT" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BankName" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SalesProfit" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="NetFI" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CloserName" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FinanceComm" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ZipCode" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerGender" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerGenderUpdated" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CustomerAge" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CLR" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BaseColour" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LeasingCompany" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="WCL" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FinanceFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesManNum" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="BOUNS_AMT" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="PDI" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AdminFee" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Freight" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AirTax" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AccountingCost" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="VehicleCost" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc1" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc3" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc4" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AftDesc5" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AfterSalesValue" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AfterSalesCost" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LastPaymentDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="id_Date" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CNT_CAT" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DealerShowroom" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VIN_NO" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CRI_POL_COST" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="LOE_POL_COST" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="POLICY_COST" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Latitude" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Longitude" nullable="true" originalLength="-1" precision="-1" sourceType="id_Double" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CityZip" nullable="true" originalLength="-1" precision="-1" sourceType="id_Integer" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProvinceZip" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BaseColor" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Weins_Make" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Penetration" nullable="true" originalLength="-1" precision="-1" sourceType="id_Float" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="New_Used" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SalesType2" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LeasingFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LeaseFlag" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSnowflakeConnection" componentVersion="0.23.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter name="PROPERTIES" value="{&quot;@id&quot;:1,&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties&quot;,&quot;__version&quot;:1,&quot;name&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;name&quot;,&quot;tags&quot;:null},&quot;loginTimeout&quot;:{&quot;@id&quot;:4,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;int&quot;,&quot;value&quot;:15},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;loginTimeout&quot;,&quot;tags&quot;:null},&quot;account&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;context.account_name&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;account&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;context.user&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;8pW6Nmy2kuczSBOgoJ7Ub24fQgd+SRSj&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;warehouse&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;context.datawarehouse&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;warehouse&quot;,&quot;tags&quot;:null},&quot;db&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;\&quot;AutomotiveSales_DB\&quot;&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;db&quot;,&quot;tags&quot;:null},&quot;schemaName&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;\&quot;PUBLIC\&quot;&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;schemaName&quot;,&quot;tags&quot;:null},&quot;role&quot;:{&quot;@id&quot;:3,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;\&quot;\&quot;&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;role&quot;,&quot;tags&quot;:null},&quot;tracing&quot;:{&quot;@id&quot;:2,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;OFF&quot;,&quot;name&quot;:&quot;OFF&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:null},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;OFF&quot;,&quot;name&quot;:&quot;OFF&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;SEVERE&quot;,&quot;name&quot;:&quot;SEVERE&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;WARNING&quot;,&quot;name&quot;:&quot;WARNING&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;INFO&quot;,&quot;name&quot;:&quot;INFO&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;CONFIG&quot;,&quot;name&quot;:&quot;CONFIG&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;FINE&quot;,&quot;name&quot;:&quot;FINE&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;FINER&quot;,&quot;name&quot;:&quot;FINER&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;FINEST&quot;,&quot;name&quot;:&quot;FINEST&quot;},{&quot;@type&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties$Tracing&quot;,&quot;value&quot;:&quot;ALL&quot;,&quot;name&quot;:&quot;ALL&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.snowflake.SnowflakeConnectionProperties.Tracing&quot;,&quot;name&quot;:&quot;tracing&quot;,&quot;tags&quot;:null},&quot;testConnection&quot;:{&quot;formtoShow&quot;:null,&quot;name&quot;:&quot;testConnection&quot;,&quot;tags&quot;:null},&quot;advanced&quot;:{&quot;formtoShow&quot;:{&quot;subtitle&quot;:null,&quot;properties&quot;:{&quot;@ref&quot;:1},&quot;widgetMap&quot;:{&quot;loginTimeout&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:1,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:4},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;tracing&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:2,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.enumeration&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:2},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;role&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:3,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:3},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}}},&quot;cancelable&quot;:false,&quot;originalValues&quot;:null,&quot;callBeforeFormPresent&quot;:false,&quot;callAfterFormBack&quot;:false,&quot;callAfterFormNext&quot;:false,&quot;callAfterFormFinish&quot;:false,&quot;allowBack&quot;:false,&quot;allowForward&quot;:false,&quot;allowFinish&quot;:false,&quot;refreshUI&quot;:true,&quot;name&quot;:&quot;Advanced&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;advanced&quot;,&quot;tags&quot;:null},&quot;referencedComponent&quot;:{&quot;referenceType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;THIS_COMPONENT&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_TYPE&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_INSTANCE&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties&lt;P extends org.talend.daikon.properties.Properties&gt;.ReferenceType&quot;,&quot;name&quot;:&quot;referenceType&quot;,&quot;tags&quot;:null},&quot;componentInstanceId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;componentInstanceId&quot;,&quot;tags&quot;:null},&quot;referenceDefinitionName&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;tSnowflakeConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;referenceDefinitionName&quot;,&quot;tags&quot;:null},&quot;reference&quot;:null,&quot;name&quot;:&quot;referencedComponent&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;org.talend.daikon.properties.PropertiesImpl.name&quot;:&quot;root&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null}"/>
+  </node>
+  <connection connectorName="RESPONSE" label="row1" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tRESTClient_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fb221181-73ab-45c5-8c5a-c354702f10d0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dZkV6T8HUz42XZIFbCPjOhNMG75a46UDxLy8vdekUi10Wv4B+CQ+HUQZbDK08NS6K/p8hBasojUT
+VN85APj8Yw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_166e4ea5-4189-4a4b-b438-79d2f9313a36"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Am5/mbNtroywHNy6ojGKHu0jZRq8ST647Qs20jTpB18anP2lnfazzcgJ94FLHzSBRAi0fgTJTnB2
+cbCuYkpM6g==</DigestValue></Reference></SignedInfo><SignatureValue>QJi1IeToIbwrxuW3hNqgRLUaEmjuORuFutI6nUVl+X7Jm75NKQ07JE3tZKO8KCmmNmsMmEeIRlby
+5IHkNbCak2UC14YiIiSeQ2YknCP3NX29HzFz8SbpkVjpwAmOF0VW4OShu6qrKJU2vbP8Ea+TdqeY
+MY2IblfTXBzJnrKjNphslTNYxG8XSgtGCoClf3/qKnqjsCZ5zqlgzt1BOyKL+WanG9X9ykOLPeFU
+i2AGpaGJec/PlBN6r8Wr/Z7s6M8Qc91uSH6bSWglSGLsmX2ccqhO59X9YnpNH7T7bLSQaOET8spQ
+8Bv4XDbkmZW98ABal4VoNR2TGUEV3bo/zg4WIg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -134,4 +1239,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_06cd179e-aac0-429a-b42b-f1f842907b45" Target="#_071279bc-7e4b-41d7-8394-3ea8fd3c948c"><Timestamp>2019-03-12 20:02:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_166e4ea5-4189-4a4b-b438-79d2f9313a36" Target="#_fb221181-73ab-45c5-8c5a-c354702f10d0"><Timestamp>2019-03-12 21:30:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
