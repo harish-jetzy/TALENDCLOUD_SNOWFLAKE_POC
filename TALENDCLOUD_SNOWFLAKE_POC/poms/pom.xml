@@ -47,7 +47,6 @@
     <module>jobs/process/Automotive/load_0.1</module>
     <module>jobs/process/Automotive/salescalendar_0.1</module>
     <module>jobs/process/Automotive/loadcra_0.1</module>
-    <module>jobs/process/Snowflake_POC/creation_of_api_0.1</module>
     <module>jobs/process/Snowflake_POC/landingjob_api_0.1</module>
     <module>jobs/process/Snowflake_POC/copy_of_creation_of_api_0.1</module>
   </modules>
