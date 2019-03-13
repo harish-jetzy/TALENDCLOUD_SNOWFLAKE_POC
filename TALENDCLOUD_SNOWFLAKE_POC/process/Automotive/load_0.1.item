@@ -58,7 +58,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/nithi/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Harish/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -259,6 +259,8 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_MkaBcIYqEei4heH7nomg3Q-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
@@ -279,7 +281,7 @@
       <column comment="" key="false" length="1" name="Year_Quarter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="output" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.SalesDate " name="SalesDate" nullable="true" type="id_Date"/>
@@ -457,8 +459,6 @@
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_3"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_Yh4RUIYwEei4heH7nomg3Q"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/nithi/OneDrive/Desktop/Automotive/Final.xlsx&quot;"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
@@ -582,6 +582,8 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_MkaBcIYqEei4heH7nomg3Q-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
@@ -599,7 +601,7 @@
       <column comment="" key="false" length="3" name="StockStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="output2" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row2.VehicleMakeKey " name="VehicleMakeKey" nullable="true" type="id_String"/>
@@ -751,8 +753,6 @@
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_L1LfwIYxEei4heH7nomg3Q"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/nithi/OneDrive/Desktop/Automotive/Final.xlsx&quot;"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
@@ -876,6 +876,8 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_MkaBcIYqEei4heH7nomg3Q-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
@@ -893,7 +895,7 @@
       <column comment="" key="false" length="3" name="StockStatusUsed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="output3" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row3.VehicleMakeKey " name="VehicleMakeKey" nullable="true" type="id_String"/>
@@ -1087,13 +1089,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a178de68-725d-448a-9881-83113b2f09c8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kmki0W1TklfT8zmQSCXmRE7u+a2n0oNINfAnmsP9uNUmQpvmaBIOYrVP7OHnqYIew2vzA6LXnqeR
-uE/TUJg/ZA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4a7d624d-9d7b-4b2d-86e4-59b75a0a27c2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hE1lvcYhvvoAyc14VO2Hqs7sNQBvHhyt7nhjofwoM1eWEGB4YmOPsuAC4gpKU/vKSVIy2K1dUMjM
-8xS7JgDNgg==</DigestValue></Reference></SignedInfo><SignatureValue>vfRbt6S6H2RBrjAL3nV2TOfzt91pkSilxt7zlfmVolXKlR+vERjzBXljnkqwwEA9t3Kb6l94ChHX
-gkbjNrtHlo+mpHhhksksREMSVpJpVUDVVR1vtUOS1M6db+2Jg5M5kmR3a0X+9fknQe56NmwGCk0H
-i6VvZdWd+r/qQPR4sgTpp5qG8XX5iLR4Ds8c2ykHctARXq6jcWcBVy8ZNZwYWy30OMcyO4fKZBKh
-ADH8VIqGOCG/to0SKxyq5YO+ydmglCPTfvWYybbFbuPvhMIkWsdcQT1EcEqBJkuUyII+I7HpNBxL
-QPHYXNquTHRa6Gh6OvAXREkg97//iLGKfUjC/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_480cd7c4-8b77-4236-8d38-d7ac4d0b82ec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rH60DvmD3W5rxMWfRwzc14L18FEn8hXl7rusKYg/4h93zrZn+R2+r5b1i+MGuW5ktAoptgocb82m
+3Wyws1+oxw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a81e6949-9533-465d-a86d-cde476ad53b0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vypqmh4K22c3ts+0I1CWusnp0TMaLnZeoT1WMED+5x4LkkdlwQuqkfTYzV4DpQqv4YTMyv+xJn9N
+LXxKDw9UCA==</DigestValue></Reference></SignedInfo><SignatureValue>T+e4d06YTQ1SssFB65Q1UEIVADQ8p/yqEb5wMDYKZD0LbDKiDgUXbqLicFUvRcin72aXn51BiBtt
+rG0kg+cv1RxaJszJXG14hkoH9086LcLT6f997iNAaqssNn4KoXlt6S4RXrx+Yu9r/4ZrshawzRWU
+67OZZOz4mw+iBfXkqaZrFI9GhOfaQ7rz6LJV3c2n8GJss7ROixHamRuOvtvoEObjarEn0+moW3v0
+pghRUC2+CdQhCy6XkSWjXvbE3xg1u9y3VQwLY+dVkn54sn5o0aHmI8srZ9wrqPQ2jYiWH17BtmTY
+G85tjB8tw62cNNmpp4fP0//dAwTE/89zrkc+Tw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -1117,4 +1119,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4a7d624d-9d7b-4b2d-86e4-59b75a0a27c2" Target="#_a178de68-725d-448a-9881-83113b2f09c8"><Timestamp>2019-03-12 18:58:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a81e6949-9533-465d-a86d-cde476ad53b0" Target="#_480cd7c4-8b77-4236-8d38-d7ac4d0b82ec"><Timestamp>2019-03-13 19:45:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
