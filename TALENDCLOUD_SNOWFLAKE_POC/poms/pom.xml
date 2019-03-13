@@ -58,6 +58,7 @@
     <module>jobs/process/Snowflake_POC/LANDING_WORKFLOW/all_landing_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/vehiclestock_used_table_staging_0.1</module>
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/fsm_data_table_staging_0.1</module>
+    <module>jobs/process/Snowflake_POC/STAGING_JOBS/mastercalendar_table_staging_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
