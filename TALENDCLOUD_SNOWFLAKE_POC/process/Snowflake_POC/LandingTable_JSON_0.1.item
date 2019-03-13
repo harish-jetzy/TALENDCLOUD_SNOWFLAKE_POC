@@ -1831,9 +1831,9 @@
   </node>
   <node componentName="tSchemaComplianceCheck" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSchemaComplianceCheck_1"/>
-    <elementParameter field="RADIO" name="CHECK_ALL" value="false"/>
-    <elementParameter field="RADIO" name="CUSTOMER" value="true"/>
-    <elementParameter field="TABLE" name="CHECKCOLS">
+    <elementParameter field="RADIO" name="CHECK_ALL" value="true"/>
+    <elementParameter field="RADIO" name="CUSTOMER" value="false"/>
+    <elementParameter field="TABLE" name="CHECKCOLS" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="VehicleMakeKey"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
@@ -2525,7 +2525,7 @@
       <elementValue elementRef="NULLABLE" value="true"/>
       <elementValue elementRef="MAX_LENGTH" value="true"/>
     </elementParameter>
-    <elementParameter field="LABEL" name="NOTE_CUSTOMER" value="Please note:&#10;(1) Nullable setting in this table is more preferential than the default schema.&#10;(2) Length checking is base on the value of the default schema."/>
+    <elementParameter field="LABEL" name="NOTE_CUSTOMER" show="false" value="Please note:&#10;(1) Nullable setting in this table is more preferential than the default schema.&#10;(2) Length checking is base on the value of the default schema."/>
     <elementParameter field="RADIO" name="CHECK_ANOTHER" value="false"/>
     <elementParameter field="LABEL" name="NOTE_CHECK_ANOTHER" show="false" value="Please note: only index matching, for example, the second column of checking schema is correspond to the second of input schema"/>
     <elementParameter field="CHECK" name="SUB_STRING" value="true"/>
@@ -2533,7 +2533,7 @@
     <elementParameter field="LABEL" name="INFO" value="If only one column has error, the errCode value is a summation of all error code; else the errCode is 16:&#10;(1) Type discrepancy (include wrong date pattern): 2&#10;(2) Empty or NULL: 4&#10;(3) Length/Precision Error: 8"/>
     <elementParameter field="CHECK" name="FAST_DATE_CHECK" value="false"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with multi-threaded jobs)"/>
-    <elementParameter field="CHECK" name="IGNORE_TIMEZONE" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_TIMEZONE" show="false" value="false"/>
     <elementParameter field="CHECK" name="EMPTY_IS_NULL" show="false" value="false"/>
     <elementParameter field="CHECK" name="ALL_EMPTY_ARE_NULL" value="true"/>
     <elementParameter field="TABLE" name="EMPTY_NULL_TABLE" show="false">
@@ -4212,13 +4212,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_04107b1c-617d-44bb-a7a2-ec2aaa753274"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7kdwEV5H6rqC8RpqBCLQGTmyyyt/y9wPAT59R+3tT0EIv2m3Tw0sOO0ijGQSMUIYMy28Wjb8OViI
-jrRIZML1/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3025c78a-c44e-4311-b338-f97276a0ac9f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>h3gHQrA21Zf/qoCVscjZ4rTZgGh7A+JkmgGyIZu7tm2zgrQGH5cGnUM+vdh0j5xm5omU9dvUtOYh
-0AVdtSoGpA==</DigestValue></Reference></SignedInfo><SignatureValue>VLZ1+JSvTCSwnLDS0jYgR6Dr4MizumNAaZRzjQjWaqiti+Bu42zhufvtQsesa92GfRjdxwdLAUT2
-6gj/xmn9jkd5T/IEploi9lhFFwkRRF3A0p1sbnZND4/k0jk+6Dv8d3OSYtPKbFSHjUeq/SzkjKRW
-swlTwLO7rzhtM2aBxle6BrrMyfQ4Aof1lvLr2VEIHGbghQfU1bn+lcxgrKhEd8MuPq4uqRhbnGyv
-J89mJYShYduTetH9h3Aemu9T0trfVxQbOyZn++6l+h0mw2OR7GwDXvGEU6CKaweyCetfsiIA56OS
-zivbZSF8ikcTD6xgYfy7st53QYi3Jr7YKeRKnA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8e6ac0a6-3c4e-4ab0-adda-867fe29a607c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mGTiQNIya8IXyR8R8IGzF1GPUfCXDwXcjgBQjrx1hndwnNijTHQ+CkCiS8WFl6IdBfO1fugHH2Qq
+HMWzMWVCpg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a9f30b5e-ec44-4fad-b993-6b57a96530fc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XV+QWhK017NKg1QIltsdBDaPo63oQ/ztC0A5CeMNtHchHn/HDolSfQVhCQag47868yNUh3lfkQZg
+cLyCbLEKrQ==</DigestValue></Reference></SignedInfo><SignatureValue>L6BFESnqIZTb+E8Z1uZQIsE2e/YHuw/e8NUMICFG5TakAWtYuv3BuT72bvTP3QF/9MMsHowJ46So
+LllINVDSYCocRHZKRkCJxGkrqPD2EHAofXbqz+DYlczPUhgCBesiFik0JSgRmFb7t+kdRQMF2qcP
+sp9qe6WAcQQfun16oRHvC1u4Lq0xR0OdGsGBVaFgLrVxDludRM76wrrJXto/t7PauTeaqicvELM8
+MXAmFuDVbbAUN/kO22/QR7pbaVFGy1HQ0i5CbA2VmlzUoFVv+PHmtJBy/QRS2iWERpympIKIAxBg
+Q6D6bBNp9GXPdwu51luqornBWcwlKHFjvDunsg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -4242,4 +4242,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3025c78a-c44e-4311-b338-f97276a0ac9f" Target="#_04107b1c-617d-44bb-a7a2-ec2aaa753274"><Timestamp>2019-03-13 18:11:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a9f30b5e-ec44-4fad-b993-6b57a96530fc" Target="#_8e6ac0a6-3c4e-4ab0-adda-867fe29a607c"><Timestamp>2019-03-13 18:13:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
