@@ -46,14 +46,14 @@
     <module>jobs/process/Automotive/load_0.1</module>
     <module>jobs/process/Automotive/salescalendar_0.1</module>
     <module>jobs/process/Automotive/loadcra_0.1</module>
-    <module>jobs/process/Snowflake_POC/creation_of_api_1_0.1</module>
-    <module>jobs/process/Snowflake_POC/snowflake_tables_0.1</module>
-    <module>jobs/process/Snowflake_POC/landing_table_0.1</module>
-    <module>jobs/process/Snowflake_POC/json_0.1</module>
     <module>jobs/process/Snowflake_POC/LANDING_TABLE_SNOWFLAKE/landingjob_api_0.1</module>
     <module>jobs/process/Snowflake_POC/LANDING_TABLE_SNOWFLAKE/landingtable_json_0.1</module>
     <module>jobs/process/Snowflake_POC/LANDING_TABLE_SNOWFLAKE/landingtable_flatfile_0.1</module>
     <module>jobs/process/Snowflake_POC/SOURCE_CREATION/connection_setup_0.1</module>
+    <module>jobs/process/Snowflake_POC/SOURCE_CREATION/creation_of_api_1_0.1</module>
+    <module>jobs/process/Snowflake_POC/SOURCE_CREATION/json_0.1</module>
+    <module>jobs/process/Snowflake_POC/SOURCE_CREATION/landing_table_0.1</module>
+    <module>jobs/process/Snowflake_POC/SOURCE_CREATION/snowflake_tables_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
