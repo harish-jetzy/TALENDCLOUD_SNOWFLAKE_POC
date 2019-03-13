@@ -52,6 +52,7 @@
     <module>jobs/process/Snowflake_POC/snowflake_tables_0.1</module>
     <module>jobs/process/Snowflake_POC/landing_table_0.1</module>
     <module>jobs/process/Snowflake_POC/json_0.1</module>
+    <module>jobs/process/Snowflake_POC/landingtable_json_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
