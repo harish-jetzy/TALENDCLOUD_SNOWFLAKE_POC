@@ -59,7 +59,7 @@
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/vehiclestock_used_table_staging_0.1</module>
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/fsm_data_table_staging_0.1</module>
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/mastercalendar_table_staging_0.1</module>
-    <module>jobs/process/Snowflake_POC/datawarehouse_table_0.1</module>
+    <module>jobs/process/Snowflake_POC/DW_TABLE/datawarehouse_table_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
