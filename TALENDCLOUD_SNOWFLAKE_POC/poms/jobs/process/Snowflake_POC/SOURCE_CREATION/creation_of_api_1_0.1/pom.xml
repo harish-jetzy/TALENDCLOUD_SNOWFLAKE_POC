@@ -5,42 +5,58 @@
   <parent>
     <groupId>org.example.talendcloud_snowflake_poc</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.0.1</version>
+    <version>7.1.1</version>
     <relativePath>../../../../../</relativePath>
   </parent>
   <groupId>org.example.talendcloud_snowflake_poc.service</groupId>
-  <artifactId>CREATION_OF_API_1</artifactId>
+  <artifactId>CREATION_OF_API_1-bundle</artifactId>
   <version>0.1.0</version>
-  <name>TALENDCLOUD_SNOWFLAKE_POC CREATION_OF_API_1-0.1.0 (0.1,Job Designs)</name>
+  <packaging>bundle</packaging>
+  <name>TALENDCLOUD_SNOWFLAKE_POC CREATION_OF_API_1-0.1.0 (0.1,Job Designs) Bundle</name>
   <properties>
-    <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
-    <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
-    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
-    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.version>0.1</talend.job.version>
-    <talend.project.name.lowercase>talendcloud_snowflake_poc</talend.project.name.lowercase>
-    <talend.job.path>talendcloud_snowflake_poc/creation_of_api_1_0_1</talend.job.path>
-    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
-    <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
-    <talend.product.version>7.0.1.20180411_1414</talend.product.version>
-    <talend.job.finalName>creation_of_api_1_0_1</talend.job.finalName>
-    <talend.pigudf.groupid>org.example.talendcloud_snowflake_poc.pigudf</talend.pigudf.groupid>
-    <talend.routine.groupid>org.example.talendcloud_snowflake_poc.code</talend.routine.groupid>
-    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx6096M -Dfile.encoding=UTF-8</talend.job.jvmargs>
-    <talend.job.stat>true</talend.job.stat>
-    <talend.project.branch>master</talend.project.branch>
-    <talend.job.context>Default</talend.job.context>
-    <talend.job.date>${maven.build.timestamp}</talend.job.date>
-    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <item.name>@ItemName@</item.name>
+    <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
+    <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
     <talend.job.name>CREATION_OF_API_1</talend.job.name>
-    <talend.job.id>_aswFoEUbEem5fvX_zcBCxA</talend.job.id>
+    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
+    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
+    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
+    <bundle.config.export.package>@BundleConfigExportPackage@</bundle.config.export.package>
     <talend.project.id>0</talend.project.id>
+    <provided.lib.path>${current.bundle.resources.dir}/provided-lib</provided.lib.path>
+    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
+    <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
+    <talend.product.version>7.1.1.20181026_1147</talend.product.version>
+    <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
+    <talend.routine.groupid>org.example.talendcloud_snowflake_poc.code</talend.routine.groupid>
     <talend.job.folder>snowflake_poc/source_creation/</talend.job.folder>
+    <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
+    <talend.job.id>_aswFoEUbEem5fvX_zcBCxA</talend.job.id>
+    <talend.project.name.lowercase>talendcloud_snowflake_poc</talend.project.name.lowercase>
+    <talend.job.finalName>${talend.job.name}-bundle-${project.version}</talend.job.finalName>
+    <lib.path>${resources.path}/lib</lib.path>
+    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <talend.job.version>0.1</talend.job.version>
+    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <talend.job.path>talendcloud_snowflake_poc/creation_of_api_1_0_1</talend.job.path>
+    <talend.job.context>Default</talend.job.context>
+    <talend.job.stat>true</talend.job.stat>
+    <talend.pigudf.groupid>org.example.talendcloud_snowflake_poc.pigudf</talend.pigudf.groupid>
     <talend.job.framework></talend.job.framework>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.type>Standard</talend.job.type>
+    <resources.path>${basedir}/src/main/resources</resources.path>
+    <item.project.name>@ItemProjectName@</item.project.name>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>activation</artifactId>
+      <version>6.0.0</version>
+    </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>advancedPersistentLookupLib-1.2</artifactId>
@@ -48,8 +64,13 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>aopalliance-1.0</artifactId>
-      <version>6.4.0</version>
+      <artifactId>antlr-runtime-3.5.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -64,12 +85,12 @@
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
-      <version>1.10</version>
+      <version>1.11</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>commons-collections-3.2.2</artifactId>
-      <version>6.0.0</version>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -89,36 +110,36 @@
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-core</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-bindings-soap</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-databinding-jaxb</artifactId>
-      <version>3.2.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-frontend-jaxrs</artifactId>
-      <version>3.2.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-rs-client</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>cxf-rt-rs-extension-providers-3.2.4</artifactId>
+      <artifactId>cxf-rt-frontend-jaxrs-3.2.6</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>cxf-rt-rs-service-description-3.2.4</artifactId>
+      <artifactId>cxf-rt-rs-client-3.2.6</artifactId>
+      <version>6.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>cxf-rt-rs-extension-providers-3.2.6</artifactId>
+      <version>6.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>cxf-rt-rs-service-description-3.2.6</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
@@ -129,42 +150,42 @@
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-security</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-security-saml</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-transports-http</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-transports-http-jetty</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-ws-security</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-wsdl</artifactId>
-      <version>3.2.4</version>
+      <version>3.2.6</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>dom4j-1.6.1</artifactId>
-      <version>6.0.0</version>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>1.6.1</version>
     </dependency>
     <dependency>
       <groupId>net.sf.ehcache</groupId>
       <artifactId>ehcache</artifactId>
-      <version>2.10.4</version>
+      <version>2.10.5</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -172,9 +193,9 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
+      <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>6.0.0</version>
+      <version>20.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -242,13 +263,13 @@
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>log4j-1.2.15</artifactId>
-      <version>6.0.0</version>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>log4j-1.2.16</artifactId>
+      <artifactId>mail-1.4</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -333,6 +354,11 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>org.talend.dataquality.parser</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>poi-3.16-20170419_modified_talend</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -358,13 +384,13 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>security-common-7.0.1</artifactId>
+      <artifactId>security-common-7.1.1</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
+      <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>6.0.0</version>
+      <version>1.7.25</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -383,38 +409,38 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>spring-aop-4.3.10.RELEASE</artifactId>
+      <artifactId>spring-aop-4.3.18.RELEASE</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>spring-beans-4.3.10.RELEASE</artifactId>
+      <artifactId>spring-beans-4.3.18.RELEASE</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>spring-context-4.3.10.RELEASE</artifactId>
+      <artifactId>spring-context-4.3.18.RELEASE</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>spring-core-4.3.10.RELEASE</artifactId>
+      <artifactId>spring-core-4.3.18.RELEASE</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>spring-expression-4.3.10.RELEASE</artifactId>
+      <artifactId>spring-expression-4.3.18.RELEASE</artifactId>
       <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>stax-api-1.0-2</artifactId>
-      <version>6.4.0</version>
+      <groupId>javax.xml.stream</groupId>
+      <artifactId>stax-api</artifactId>
+      <version>1.0-2</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>stax2-api-3.1.4</artifactId>
-      <version>6.1.0</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -447,9 +473,9 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
+      <groupId>javax.validation</groupId>
       <artifactId>validation-api</artifactId>
-      <version>6.0.0</version>
+      <version>1.1.0.Final</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -459,32 +485,32 @@
     <dependency>
       <groupId>org.apache.wss4j</groupId>
       <artifactId>wss4j-bindings</artifactId>
-      <version>2.2.1</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.wss4j</groupId>
       <artifactId>wss4j-policy</artifactId>
-      <version>2.2.1</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.wss4j</groupId>
       <artifactId>wss4j-ws-security-common</artifactId>
-      <version>2.2.1</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.wss4j</groupId>
       <artifactId>wss4j-ws-security-dom</artifactId>
-      <version>2.2.1</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.wss4j</groupId>
       <artifactId>wss4j-ws-security-policy-stax</artifactId>
-      <version>2.2.1</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.wss4j</groupId>
       <artifactId>wss4j-ws-security-stax</artifactId>
-      <version>2.2.1</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -499,16 +525,55 @@
     <dependency>
       <groupId>org.apache.santuario</groupId>
       <artifactId>xmlsec</artifactId>
-      <version>2.1.1</version>
+      <version>2.1.2</version>
     </dependency>
     <dependency>
       <groupId>org.example.talendcloud_snowflake_poc.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.0.1</version>
+      <version>7.1.1</version>
     </dependency>
   </dependencies>
   <build>
-    <finalName>${talend.job.finalName}</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>2.5.3</version>
+        <extensions>true</extensions>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.7</version>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>${basedir}/src/main/assemblies/assembly.xml</descriptor>
+              </descriptors>
+              <tarLongFileMode>gnu</tarLongFileMode>
+              <appendAssemblyId>false</appendAssemblyId>
+              <finalName>${talend.job.name}-bundle-${project.version}</finalName>
+              <archive>
+                <manifestFile>${current.bundle.resources.dir}/META-INF/MANIFEST.MF</manifestFile>
+              </archive>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
   <profiles>
     <profile>
@@ -532,7 +597,10 @@
                   </descriptors>
                   <tarLongFileMode>gnu</tarLongFileMode>
                   <appendAssemblyId>false</appendAssemblyId>
-                  <finalName>${talend.job.finalName}</finalName>
+                  <finalName>${talend.job.name}-bundle-${project.version}</finalName>
+                  <archive>
+                    <manifestFile>${current.bundle.resources.dir}/META-INF/MANIFEST.MF</manifestFile>
+                  </archive>
                 </configuration>
               </execution>
             </executions>
@@ -567,8 +635,8 @@
       </activation>
       <properties>
         <templates.dir>${basedir}/src/main/templates/</templates.dir>
-        <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
         <poms.dir>${basedir}</poms.dir>
+        <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
       </properties>
     </profile>
     <profile>
@@ -588,8 +656,8 @@
       <properties>
         <talend.pigudf.excludes.set>org.talend.pigudf.${talend.project.name.lowercase}:*</talend.pigudf.excludes.set>
         <talend.libraries.excludes.set>${talend.libraries.includes.set}</talend.libraries.excludes.set>
-        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.code.excludes.set>org.talend.code.${talend.project.name.lowercase}:*</talend.code.excludes.set>
+        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.libraries.includes.set>org.talend.libraries:*</talend.libraries.includes.set>
         <current.job.binaries.include>${project.groupId}:${project.artifactId}:${project.version}</current.job.binaries.include>
       </properties>
@@ -680,17 +748,43 @@
     <profile>
       <id>include-microservice-running-configs</id>
       <properties>
-        <microservice.running.configs.dir>${current.int-resources.dir}/</microservice.running.configs.dir>
+        <microservice.running.configs.dir>${current.resources.dir}/</microservice.running.configs.dir>
       </properties>
     </profile>
     <profile>
-      <id>include-survivorship-rules</id>
+      <id>deploy-nexus</id>
       <activation>
-        <activeByDefault>true</activeByDefault>
+        <property>
+          <name>altDeploymentRepository</name>
+        </property>
       </activation>
-      <properties>
-        <survivorship.rules.dir>${current.resources.dir}/metadata/survivorship/</survivorship.rules.dir>
-      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>2.7</version>
+            <executions>
+              <execution>
+                <id>deploy-file</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>deploy-file</goal>
+                </goals>
+                <configuration>
+                  <file>${basedir}/src/main/resources/feature/feature.xml</file>
+                  <groupId>${project.groupId}</groupId>
+                  <artifactId>${talend.job.name}-feature</artifactId>
+                  <version>${project.version}</version>
+                  <classifier>features</classifier>
+                  <packaging>xml</packaging>
+                  <repositoryId>${project.distribution-management.repository.id}</repositoryId>
+                  <url>${project.distribution-management.repository.url}</url>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
     </profile>
   </profiles>
 </project>
