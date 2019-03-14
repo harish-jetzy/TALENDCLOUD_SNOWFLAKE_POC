@@ -42,12 +42,22 @@
   <dependencies>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>activation</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>dom4j-1.6.1</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>log4j-1.2.16</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>mail-1.4</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -59,6 +69,21 @@
       <groupId>org.example.talendcloud_snowflake_poc.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talendcloud_snowflake_poc.job</groupId>
+      <artifactId>JSON</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talendcloud_snowflake_poc.service</groupId>
+      <artifactId>CREATION_OF_API_1</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talendcloud_snowflake_poc.job</groupId>
+      <artifactId>Landing_table</artifactId>
+      <version>0.1.0</version>
     </dependency>
   </dependencies>
   <build>
