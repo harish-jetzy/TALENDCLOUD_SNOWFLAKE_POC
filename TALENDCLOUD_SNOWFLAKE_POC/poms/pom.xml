@@ -61,6 +61,7 @@
     <module>jobs/process/Snowflake_POC/DW_TABLE/datawarehouse_table_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/all_landing_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/source_jobs_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/staging_jobs_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
