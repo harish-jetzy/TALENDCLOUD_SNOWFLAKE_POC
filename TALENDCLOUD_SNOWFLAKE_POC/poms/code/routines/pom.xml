@@ -5,26 +5,36 @@
   <parent>
     <groupId>org.example.talendcloud_snowflake_poc</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.0.1</version>
+    <version>7.1.1</version>
     <relativePath>../../</relativePath>
   </parent>
   <groupId>org.example.talendcloud_snowflake_poc.code</groupId>
   <artifactId>routines</artifactId>
-  <version>7.0.1</version>
+  <version>7.1.1</version>
   <name>TALENDCLOUD_SNOWFLAKE_POC Routines</name>
   <properties>
     <talend.codes.package>routines</talend.codes.package>
   </properties>
   <dependencies>
     <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>log4j-1.2.16</artifactId>
+      <artifactId>antlr-runtime-3.5.2</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>dom4j-1.6.1</artifactId>
+      <artifactId>org.talend.dataquality.parser</artifactId>
       <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>1.6.1</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
