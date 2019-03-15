@@ -120,9 +120,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="VEHICLESTOCK_NEW_TABLE_STAGING"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="VEHICLESTOCK_NEW_TABLE_STAGING_Copy"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_AWGj8EXJEemOvcPIPr6VDw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_2YUf8EbrEemX1fNtEY6QFg"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -140,9 +140,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="VEHICLESTOCK_USED_TABLE_STAGING"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="VEHICLESTOCK_USED_TABLE_STAGING_Copy"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_wBOpcEXXEemOvcPIPr6VDw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_2cpmUEbrEemX1fNtEY6QFg"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -160,9 +160,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FSM_DATA_TABLE_STAGING"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FSM_DATA_TABLE_STAGING_Copy"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_chzfgEXbEemOvcPIPr6VDw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_2JKpoEbrEemX1fNtEY6QFg"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -180,9 +180,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="MASTERCALENDAR_TABLE_STAGING"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="MASTERCALENDAR_TABLE_STAGING_Copy"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_l4GjsEXfEemOvcPIPr6VDw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_2TGowEbrEemX1fNtEY6QFg"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -430,13 +430,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9dd05d96-6da7-4bf0-b04f-361ddfe98b6c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZSv1Rqpf7655CkWWzHxOdNt4byoObMpBk4LfAyvmjn2MQaW3txPUbHaUKhcJy9+3UKZEz+OEPWo7
-8bafjj5PRA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_71cffec3-65bc-4cf0-ac76-76a59089b791"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FI7keEunNTPJfS8aPNxWUrs7V2zuZA8k8gZiyfKBOOFHybjzs96z7BweBuZmQGC9zl77ltO/9LSN
-/K1wA7Bmvg==</DigestValue></Reference></SignedInfo><SignatureValue>PmFxt5G02yQsDqLx+1CFdd+DgO4PhTvNxTXGY1gFa7HcIT9G28b6hCoH+E6E9KsqLRSF7jtTlo8R
-C8Vgzb2iiBfnqCQ4T1H3AkwQgrMTPdbCltsi1zRgZIYWkzu1w6X4+qEy3u7F+AYPnBiS3EnMQ1U7
-ZY/S5zX4nQ/Py1ksRJ39Bj7jdo4+Vy5TCvg05ZbyItShu1S5kIcq6jNObydvR/ky8joL2ISlxlfr
-l80NPzieIzvbNJ8RHVeNdRj6Cse4VVIN8/WT6XSzS7ppUwSjD8AndNol4mGKFXksozVjqwVplACu
-VnN1jffYCB+kIea+ZDwsZeKO2cAbH/wv4csOgA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a144cff2-56cb-49d2-ba71-e0c216ac7b35"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uoRjiBUsFQ69toy/rUThKk5lXuUL31R5S0y+HrNooPLbRglcaztZ64jcan7jAAagzdg2tXVySroK
+uvid/4xyDw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_47505032-54bc-4d96-a6f5-ab977c1f5ef4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>E7/IUUACElVOHH3wLZJ3MuwW28rVP62fdx72BB0JMeiF3Ovnnj8q4N+DxREjAFgKvwvPUTs0VpcW
+7Rj0m+z30Q==</DigestValue></Reference></SignedInfo><SignatureValue>QxLdc4LyxCDrOVrT52F9GvYJ3Zyr1OxN23OaSkHA8NNsDxgqdzO0lN60xNxk7ToKzNEBBlEK8emB
+rguvUiEoIfea239iMgRkmRYhTLIJY+OyFFUmydOUlLKVodd+kXUCO4Xv1Ur5vxJx+GAMLjb+cnqn
+ytKiJ8neIxUWjf5r7V4jxKp4Xo3/E43KyftQiY847lOxVwWUvRxfLGaniuBRUjg7EHSrMUui3ox2
+mB5i+cl9U3+JIWEj2m1vjIHesbpbW7ayua+L+NuFZ8xLSSErclgnaihUj53u/pOguo09hpR7Mr5A
++uFqJLx18A2iup4/5jeUG23KGLNxhuXcBft2FA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -460,4 +460,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_71cffec3-65bc-4cf0-ac76-76a59089b791" Target="#_9dd05d96-6da7-4bf0-b04f-361ddfe98b6c"><Timestamp>2019-03-15 06:11:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_47505032-54bc-4d96-a6f5-ab977c1f5ef4" Target="#_a144cff2-56cb-49d2-ba71-e0c216ac7b35"><Timestamp>2019-03-15 06:36:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
