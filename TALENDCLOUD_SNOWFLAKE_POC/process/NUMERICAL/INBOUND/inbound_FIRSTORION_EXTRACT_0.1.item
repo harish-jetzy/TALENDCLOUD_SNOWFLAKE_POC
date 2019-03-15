@@ -16,15 +16,15 @@
     <contextParameter comment="Source file name - 2st file (when applicable)" name="vjobSourceFile_02" prompt="vjobSourceFile_02?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Source table name - 1st table" name="vjobSourceTable_01" prompt="vjobSourceTable_01?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Source table name - 2st table (when applicable)" name="vjobSourceTable_02" prompt="vjobSourceTable_02?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
-    <contextParameter comment="Source table name - 3rd table (when applicable)" name="vjobSourceTable_03" prompt="vjobSourceTable_03?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
-    <contextParameter comment="Source table name - 4th table (when applicable)" name="vjobSourceTable_04" prompt="vjobSourceTable_04?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="Source table name - 3rd table (when applicable)" name="vjobSourceTable_03" prompt="vjobSourceTable_03?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="Source table name - 4th table (when applicable)" name="vjobSourceTable_04" prompt="vjobSourceTable_04?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Timestamp of the start of this job" name="vjobStartTimestamp" prompt="vjobStartTimestamp?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_Date" value=""/>
     <contextParameter comment="Target file name - 1st file" name="vjobTargetFile_01" prompt="vjobTargetFile_01?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Target file name - 2st file (when applicable)" name="vjobTargetFile_02" prompt="vjobTargetFile_02?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Target table name - 1st table" name="vjobTargetTable_01" prompt="vjobTargetTable_01?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Target table name - 2nd table (when applicable)" name="vjobTargetTable_02" prompt="vjobTargetTable_02?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="null"/>
-    <contextParameter comment="Target table name - 3rd table" name="vjobTargetTable_03" prompt="vjobTargetTable_03?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
-    <contextParameter comment="Target table name - 4th table" name="vjobTargetTable_04" prompt="vjobTargetTable_04?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="Target table name - 3rd table" name="vjobTargetTable_03" prompt="vjobTargetTable_03?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="Target table name - 4th table" name="vjobTargetTable_04" prompt="vjobTargetTable_04?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
     <contextParameter comment="Name of the timestamp column of the target table" name="vjobTimestampColumn" prompt="vjobTimestampColumn?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="null"/>
     <contextParameter comment="Name of last run timestamp file" name="vjobTimestampFile" prompt="vjobTimestampFile?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_String" value="null"/>
     <contextParameter comment="" name="vmaxFileWaitIteration" prompt="vmaxFileWaitIteration?" promptNeeded="false" repositoryContextId="_q9si0JfvEeOzvtP4OCrFag" type="id_Integer" value="15"/>
@@ -44,7 +44,7 @@
     <contextParameter comment="" name="LOOKUP" prompt="LOOKUP?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="LOOKUP/"/>
     <contextParameter comment="" name="OUTPUT" prompt="OUTPUT?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="OUTPUT/"/>
     <contextParameter comment="" name="REJECT" prompt="REJECT?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="REJECT/"/>
-    <contextParameter comment="" name="ROOT" prompt="ROOT?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="C:/Users/Artha/Desktop/Numeracle_staging/"/>
+    <contextParameter comment="" name="ROOT" prompt="ROOT?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="C:/Users/girish/Desktop/01. MyFile/02. Projects/23. Numerical/Files/"/>
     <contextParameter comment="" name="SCRIPT" prompt="SCRIPT?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="SCRIPTS/"/>
     <contextParameter comment="" name="STAGING" prompt="STAGING?" promptNeeded="false" repositoryContextId="_X_IWIA8uEeOuKrj0M0a39g" type="id_String" value="STAGING/"/>
     <contextParameter comment="" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_DMS3MIZZEei8csQ7dRq_8Q" type="id_String" value="&quot;smtp-mail.outlook.com&quot;"/>
@@ -117,7 +117,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Navya/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Harish/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -206,7 +206,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="5" offsetLabelY="0" posX="-288" posY="-416">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="5" offsetLabelY="0" posX="-288" posY="-416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connect Error: &quot;+ ((String)globalMap.get(&quot;tDBConnection_1_ERROR_MESSAGE&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
@@ -226,7 +226,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_4"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="5" offsetLabelY="0" posX="352" posY="-64">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="5" offsetLabelY="0" posX="352" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_4"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connect Error: &quot;+ ((String)globalMap.get(&quot;tFileInputExcel_1_ERROR_MESSAGE&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -274,6 +274,8 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_IX7-MIjhEeiYivD4VK1Vsg-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
@@ -454,6 +456,7 @@
     <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" show="false" value="false"/>
     <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="FirstOrion_Extract"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputExcel_2">
@@ -501,6 +504,8 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_IX7-MIjhEeiYivD4VK1Vsg-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
@@ -918,7 +923,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_2"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="5" offsetLabelY="0" posX="864" posY="-64">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="5" offsetLabelY="0" posX="864" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
     <elementParameter field="TEXT" name="MESSAGE" value=" ((String)globalMap.get(&quot;tDBOutput_2_ERROR_MESSAGE&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
@@ -947,7 +952,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_3"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="5" offsetLabelY="0" posX="1120" posY="-64">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="5" offsetLabelY="0" posX="1120" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
     <elementParameter field="TEXT" name="MESSAGE" value=" ((String)globalMap.get(&quot;tFileArchive_1_ERROR_MESSAGE&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
@@ -964,7 +969,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_2"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="5" offsetLabelY="0" posX="608" posY="-64">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="5" offsetLabelY="0" posX="608" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_5"/>
     <elementParameter field="TEXT" name="MESSAGE" value="((String)globalMap.get(&quot;tDBInput_4_ERROR_MESSAGE&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
@@ -1055,6 +1060,8 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_IX7-MIjhEeiYivD4VK1Vsg-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
@@ -1335,7 +1342,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;128;128"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
@@ -1458,13 +1465,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b5dceadd-0d5b-4a6a-beeb-ce3bd909aad5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eWKyJHfddjl1jKdVVAg/vfiO6Jo9TEFbEEzEnicj2vJU1zzU80z2XRu7NrPLlwfJTPJptMDkL3qd
-5y/b+y7g0g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1437a40c-bec9-4df9-8632-a03b0a3d95b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bjDlt/YvXrY219Asb4Db+YG2GYrvqtbu1mM5Xr6fxHe/BKP74fCfwrkQH8RT23wkx+vlWWF+BC7X
-Wxv2J4F4zw==</DigestValue></Reference></SignedInfo><SignatureValue>SCDgFhpyQzK3LTeRvn5GWdEr1/U+vRX7AL50ndJkaeznrXIrCo94Zyl4BRzoKkIl3Y+qfO0tzn7x
-wNjRlip3JTm+GT82QuztGCmLNP+xs9R/9QLHcpjgFwoEcKyGF7kl7XV7jh6rMFsaiCVrbLoFCaMj
-OLBU2gZWhNQ9HpZ4AdG3pvHrbQmI6wLlSs7Yn8zg7S27XEDbvVZGPdjUoPyMpDFPPmM8+kfB6TWB
-mVxVuYBogJ1GsLZAG0wWp658bXgemLqwo5lPtKwMwdwF+TAlmFUL/dqm1eFSUPbEbAiAMX2wJIsm
-FE964skktQOQMdkzI46yEE4iQQ1hgn8SwQwiLA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d10a7dd1-a75c-4c08-bf42-dbea11913f54"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>G0ihvJ7wD/9x9/zpL51EzsQ65VPYgAlA6ocOd/zV64WeMzPWiSogiI8fkYXvd6spysGz9iOeQ5KE
+xrv8hevcFA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa6c318e-8938-4ce0-861e-a1021c7ff150"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>d39tlOpuiOZTAefldf2xx3tQsQmiMDtOqrBrqN1Gp+NLw/8eEOin/oiU5OEDP5HvTfJGO4x4h5UO
+AbAGw7J/5g==</DigestValue></Reference></SignedInfo><SignatureValue>cASvFQXx5vNlRivHvc++Z4reLwdAKUSYhfdbOv7/L28r22Bwin3RaaqHYjW4VuUNMswB4gDKbtsC
+i2Dyr9dqrS5gGEcaq84XdBgI/KAPLMhnbAZicHmDCl76BJTcRc18Qqudwzztkjb5AvfPfMQogK7d
+2VuLUqFjFZx7IxWkp7X49RtlHU84PbfWXjdAJ3DDJHQyrLXAOBYTXvIVXysw2jesejjp+YLAfZVt
+LG8v0PK+CrdEx8ZY+dybLldSMm89eP1UdTfsX1NAz30bEuLBC9AFQvrZtWNrviCfgFgNgggbh3vv
+b2Ud+aZhp+PAzDWBgCGW6cMBG/gNxLIHgInKhQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -1488,4 +1495,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1437a40c-bec9-4df9-8632-a03b0a3d95b6" Target="#_b5dceadd-0d5b-4a6a-beeb-ce3bd909aad5"><Timestamp>2019-03-08 00:34:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa6c318e-8938-4ce0-861e-a1021c7ff150" Target="#_d10a7dd1-a75c-4c08-bf42-dbea11913f54"><Timestamp>2019-03-15 19:50:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
