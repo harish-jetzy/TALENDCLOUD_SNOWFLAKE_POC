@@ -65,6 +65,10 @@
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/copy_of_all_landing_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/copy_of_source_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/copy_of_staging_jobs_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/landingjob_api_copy_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/landingtable_flatfile_copy_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/landingtable_json_copy_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/all_landing_jobs_copy_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
