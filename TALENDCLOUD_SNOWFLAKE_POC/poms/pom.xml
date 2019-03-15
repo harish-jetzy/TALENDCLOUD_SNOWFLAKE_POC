@@ -73,13 +73,14 @@
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/mastercalendar_table_staging_copy_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/vehiclestock_new_table_staging_copy_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/vehiclestock_used_table_staging_copy_0.1</module>
+    <module>jobs/process/Snowflake_POC/DW_TABLE/autosales_datawarehouse_table_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
