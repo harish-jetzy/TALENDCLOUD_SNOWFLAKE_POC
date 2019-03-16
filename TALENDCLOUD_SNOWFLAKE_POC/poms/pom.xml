@@ -59,7 +59,6 @@
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/fsm_data_table_staging_0.1</module>
     <module>jobs/process/Snowflake_POC/STAGING_JOBS/mastercalendar_table_staging_0.1</module>
     <module>jobs/process/Snowflake_POC/DW_TABLE/datawarehouse_table_0.1</module>
-    <module>jobs/process/Snowflake_POC/WORK_FLOWS/staging_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/copy_of_source_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/landingjob_api_copy_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/DEMO_JOBS/landingtable_flatfile_copy_0.1</module>
@@ -74,6 +73,7 @@
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/autosales_staging_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/all_landing_jobs_001_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/source_jobs_002_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/staging_jobs_002_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
