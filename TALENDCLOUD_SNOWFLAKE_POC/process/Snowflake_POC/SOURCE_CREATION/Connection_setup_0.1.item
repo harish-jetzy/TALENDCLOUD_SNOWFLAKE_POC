@@ -614,17 +614,17 @@
       <column comment="" defaultValue="" key="false" length="-1" name="CRI_POL_COST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="LOE_POL_COST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="POLICY_COST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="Latitude" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="Longitude" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="FLOAT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Latitude" nullable="true" originalLength="-1" pattern="" precision="6" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Longitude" nullable="true" originalLength="-1" pattern="" precision="6" sourceType="FLOAT" type="id_Double" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="CityZip" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ProvinceZip" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="BaseColor" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Weins_Make" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="Penetration" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="REAL" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="New_Used" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="SalesType2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LeasingFlag" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LeaseFlag" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="ProvinceZip" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="BaseColor" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="Weins_Make" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Penetration" nullable="true" originalLength="-1" pattern="" precision="6" sourceType="REAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="New_Used" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="SalesType2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="LeasingFlag" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="300" name="LeaseFlag" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="LastPaymentDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SaleDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Delivery_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
@@ -675,13 +675,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_25d99289-27d2-4409-9662-72c25f5f7d70"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sMM9Y9d1OWl2tGY2/lc3GlaOpfbrZ/AWc46YDo434iA+TYh4lBAOC7Cjfqo5koxhMiWHUc3tnR6+
-XpESBhqGLg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa4cfed3-a0cf-4c02-9983-8adbe7cf1f08"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c2Kul0O70H3QG+8jOmMevnjDCk28OKR0IU3xpLh+g8R5mQWnwpzjYB2Fq4AvHPkphPjmtwaXeNXi
-O48STT0dNw==</DigestValue></Reference></SignedInfo><SignatureValue>rrpUNKRC5pr2yad92mq0n1T47aOsmi4J68DfCBSVNP9u8atSpc9bkAXVwEd59wt+J3G9PncmA6cv
-UoRD7LIUE+e6/KMjInQWF8/yGLVtuURCTuPcPo1CCWlIY54RuU/2wORtBO4wJN8SsMLgBkniwD5x
-dYfkqGyQ+8tsgWObfKYkhDagLhAa7tzceClyCOPu14/3kx5SshK8YRN8wtZSeS+Zf37Hkz5lhy58
-QQDsimLNxjlWPk6r2RKTbOoh06gZMj+/JGyFeMpp9M6lglzoIJd28jB7OS2wzoSUeZPMz2SOp/Bh
-q31f00vQBguIfXtr/OonobE5euhAJbgr93VJ4g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9b320b1b-efa3-48f5-9fdc-700f24370be3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LDaOqaLELEgVPz9fGWYNTENdgzcIPzWVHmKjLyu75PdK8Kc0JWaJqTg0+v1pq83XJGXU9GsLXCqx
+wLgVKcDZpw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_747b0f26-abf7-4f3c-87f4-a0721983375e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zpc7ZGuxtw/pOsrv0xpWUGDKksx76fg6zBkUJvozBbwEvMXlSd4EhuLhuhe3y3/b4vi8V+H8AMTv
+cJMLmSZtVw==</DigestValue></Reference></SignedInfo><SignatureValue>zzHlLKNJ9K+ynnsoaXRjVLakQwh3jBFz9ycY++65bbvrsNdRbN0G3xPjGkCf7P0B6p51tnTNE9EQ
+fOiGOHt/XWAAHhi4OPuIR9Y9VJcZ1DGUm2Y0tcIcrs0FGf0+3+kpw6haagMz4Opnv7ik4QiyhzgW
+No7RD+MA7S0Q2Oxh7r9/1dxN4iRxLetXBBUn5M3moL2AMHFc1NMUiLWfDCU4mzeCXU5opn5Xhr6i
+axaXoHjAVE6tS5P0p4doBE28w1FDvdbmr2PGuot3bido/bgcA1DC3tCh2jH/Q6c/6NryOPoAAQ1b
+Yl2kLs2hmsS3IgRpy7vC6LXkeL/3d4DYXnnZSw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -705,4 +705,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa4cfed3-a0cf-4c02-9983-8adbe7cf1f08" Target="#_25d99289-27d2-4409-9662-72c25f5f7d70"><Timestamp>2019-03-15 23:55:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_747b0f26-abf7-4f3c-87f4-a0721983375e" Target="#_9b320b1b-efa3-48f5-9fdc-700f24370be3"><Timestamp>2019-03-16 00:07:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
