@@ -72,8 +72,8 @@
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/autosales_all_landing_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/DEMO_WORKFLOWS/autosales_staging_jobs_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/all_landing_jobs_001_0.1</module>
-    <module>jobs/process/Snowflake_POC/WORK_FLOWS/source_jobs_002_0.1</module>
     <module>jobs/process/Snowflake_POC/WORK_FLOWS/staging_jobs_002_0.1</module>
+    <module>jobs/process/Snowflake_POC/WORK_FLOWS/source_jobs_000_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCLOUD_SNOWFLAKE_POC</talend.project.name>
